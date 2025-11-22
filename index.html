@@ -42,7 +42,6 @@
       }
 
       /* 상단 네비게이션 */
-
       .top-nav {
         position: sticky;
         top: 0;
@@ -112,7 +111,6 @@
       }
 
       /* 페이지 전체 레이아웃 */
-
       .page {
         max-width: 1040px;
         margin: 0 auto;
@@ -167,8 +165,7 @@
         border-radius: 4px;
       }
 
-      /* 메인 레이아웃: 좌측 리스트, 우측 포커스 */
-
+      /* 메인 레이아웃 */
       .main-layout {
         display: grid;
         grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
@@ -180,8 +177,6 @@
           grid-template-columns: minmax(0, 1fr);
         }
       }
-
-      /* 카테고리 필터 카드 */
 
       .filter-card {
         grid-column: 1 / -1;
@@ -253,8 +248,6 @@
         border-color: rgba(96, 165, 250, 0.98);
         box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.5);
       }
-
-      /* 좌측: 뉴스 리스트 */
 
       .list-card {
         padding: 10px 12px 12px;
@@ -328,8 +321,6 @@
         border: 1px solid rgba(75, 85, 99, 0.85);
         font-size: 0.7rem;
       }
-
-      /* 우측: 포커스 카드 */
 
       .focus-card {
         padding: 10px 12px 12px;
@@ -405,7 +396,6 @@
     </style>
   </head>
   <body>
-    <!-- 상단 네비게이션 -->
     <nav class="top-nav">
       <div class="top-nav-inner">
         <div class="brand">
@@ -420,7 +410,9 @@
         <div class="nav-links">
           <a href="#">홈</a>
           <a href="#">데이터 허브(예정)</a>
-          <a href="https://syc2070-source.github.io/addiction-society/" target="_blank"
+          <a
+            href="https://syc2070-source.github.io/addiction-society/"
+            target="_blank"
             >중독사회로 이동 ↗</a
           >
         </div>
@@ -428,7 +420,6 @@
     </nav>
 
     <div class="page">
-      <!-- 헤더 영역 -->
       <header class="page-header">
         <div class="title-row">
           <h1>오늘의 중독·시사 브리핑</h1>
@@ -437,15 +428,13 @@
         <p class="page-sub">
           도박·게임·알코올·약물·디지털 중독과 관련된 글로벌 뉴스, 그리고 구조적
           위험을 보여 주는 <strong>시사 이슈</strong>를 선별해 한국어로
-          요약합니다. 데이터는 <code>data/news.json</code> 파일에서 관리되며,
+          요약합니다. 데이터는 <code>data/news.txt</code> 파일에서 관리되며,
           향후 자동 수집·번역·요약 파이프라인과 QAICLE 통계엔진과의 연동을
           목표로 합니다.
         </p>
       </header>
 
-      <!-- 메인 레이아웃 -->
       <section class="main-layout">
-        <!-- 카테고리 필터 -->
         <div class="filter-card">
           <div class="filter-head">
             <div class="filter-label">
@@ -460,10 +449,9 @@
           <div id="category-chips" class="chip-row"></div>
         </div>
 
-        <!-- 좌측: 뉴스 리스트 -->
         <div class="list-card">
           <h2 class="section-title">
-            최신 기사 <span id="category-label">전체</span>
+            최신 기사 <span id="category-label">(전체)</span>
           </h2>
           <div id="news-list" class="news-list">
             <p style="font-size:0.85rem;color:#9ca3af;">
@@ -472,7 +460,6 @@
           </div>
         </div>
 
-        <!-- 우측: 포커스 기사 -->
         <aside class="focus-card">
           <div id="focus-content">
             <p class="focus-empty">
@@ -533,10 +520,10 @@
         });
       }
 
-      // 포커스 + 리스트를 현재 카테고리에 맞게 업데이트
       function updateView() {
         const label = document.getElementById("category-label");
-        label.textContent = currentCategory === "전체" ? "(전체)" : `(${currentCategory})`;
+        label.textContent =
+          currentCategory === "전체" ? "(전체)" : `(${currentCategory})`;
 
         let candidates =
           currentCategory === "전체"
@@ -552,7 +539,6 @@
         renderNewsList(rest);
       }
 
-      // 포커스 기사 렌더링
       function renderFocus(item) {
         const container = document.getElementById("focus-content");
         if (!item) {
@@ -575,7 +561,9 @@
             </a>
           </h2>
           <div class="focus-meta">
-            [${category}] ${country ? country + " · " : ""}${date} · ${source}
+            [${category}] ${
+          country ? country + " · " : ""
+        }${date} · ${source}
           </div>
           <p class="focus-summary">${summary}</p>
           <div class="focus-footer">
@@ -600,7 +588,6 @@
         `;
       }
 
-      // 리스트 렌더링
       function renderNewsList(list) {
         const container = document.getElementById("news-list");
 
@@ -662,22 +649,82 @@
           .join("");
       }
 
-      // 뉴스 데이터 로딩
+      // news.txt 파싱
+      function parseNewsText(text) {
+        const lines = text.split(/\r?\n/);
+        const blocks = [];
+        let current = [];
+
+        for (const rawLine of lines) {
+          const line = rawLine.replace(/\s+$/, "");
+          if (line.trim().startsWith("===")) {
+            if (current.length) {
+              blocks.push(current.join("\n").trim());
+              current = [];
+            }
+          } else {
+            current.push(line);
+          }
+        }
+        if (current.length) {
+          blocks.push(current.join("\n").trim());
+        }
+
+        const articles = [];
+
+        for (const block of blocks) {
+          if (!block) continue;
+          const obj = {};
+
+          const getSingle = (label) => {
+            const re = new RegExp("^" + label + "\\s*:\\s*(.*)$", "m");
+            const m = block.match(re);
+            return m ? m[1].trim() : "";
+          };
+
+          obj.title = getSingle("제목");
+          obj.category = getSingle("카테고리") || "기타";
+          obj.date = getSingle("날짜");
+          obj.country = getSingle("국가");
+          obj.source = getSingle("출처");
+          obj.url = getSingle("링크");
+
+          const lines = block.split(/\r?\n/);
+          const summaryIndex = lines.findIndex((l) =>
+            l.trim().startsWith("요약:")
+          );
+          if (summaryIndex >= 0) {
+            const summaryLines = lines.slice(summaryIndex + 1);
+            obj.summary_ko = summaryLines.join("\n").trim();
+          } else {
+            obj.summary_ko = "";
+          }
+
+          if (obj.title) {
+            articles.push(obj);
+          }
+        }
+
+        return articles;
+      }
+
       async function loadNews() {
         try {
-          const res = await fetch("data/news.json?v=" + Date.now());
+          const res = await fetch("data/news.txt?v=" + Date.now());
           if (!res.ok) {
-            console.warn("news.json 을 불러오지 못했습니다.");
+            console.warn("news.txt 를 불러오지 못했습니다.");
             allNews = [];
             renderNewsList([]);
             renderFocus(null);
             return;
           }
 
-          const data = await res.json();
-          allNews = (data || []).slice().sort((a, b) => {
+          const text = await res.text();
+          allNews = parseNewsText(text);
+
+          allNews = allNews.slice().sort((a, b) => {
             if (!a.date || !b.date) return 0;
-            return a.date < b.date ? 1 : -1; // 최신 날짜가 앞으로
+            return a.date < b.date ? 1 : -1;
           });
 
           renderCategoryChips();

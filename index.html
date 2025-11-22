@@ -2,87 +2,333 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <title>중독뉴스</title>
+    <title>중독뉴스 | Addiction Newsroom</title>
+    <meta
+      name="description"
+      content="도박·게임·알코올·약물·디지털 중독 및 시사 이슈와 관련된 전 세계 뉴스를 한국어로 요약·정리하는 중독 전문 뉴스룸입니다."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      :root {
+        --bg: #020617;
+        --fg: #e5e7eb;
+        --fg-muted: #9ca3af;
+        --accent: #60a5fa;
+        --accent-soft: rgba(56, 189, 248, 0.08);
+        --border-subtle: #111827;
+        --card-bg: #020617;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         margin: 0;
-        padding: 16px;
+        padding: 0;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           sans-serif;
-        background: #020617;
-        color: #e5e7eb;
+        background: radial-gradient(circle at top, #0b1f3a, #020617 55%);
+        color: var(--fg);
       }
-      h1 {
-        margin-top: 0;
-        font-size: 1.6rem;
-      }
-      .meta {
-        font-size: 0.8rem;
-        color: #9ca3af;
-        margin-bottom: 12px;
-      }
-      .news-list {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
-      .news-item {
-        padding: 10px 12px;
-        border-radius: 12px;
-        border: 1px solid #1f2937;
-        background: #020617;
-      }
-      .news-meta {
-        font-size: 0.75rem;
-        color: #9ca3af;
-        margin-bottom: 4px;
-      }
-      .news-title {
-        font-size: 1rem;
-        margin: 0 0 4px;
-      }
-      .news-summary {
-        font-size: 0.9rem;
-        margin: 0 0 4px;
-      }
-      .news-footer {
-        display: flex;
-        justify-content: space-between;
-        font-size: 0.75rem;
-        color: #9ca3af;
-      }
+
       a {
-        color: #60a5fa;
+        color: var(--accent);
         text-decoration: none;
       }
       a:hover {
         text-decoration: underline;
       }
+
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 18px 14px 28px;
+      }
+
+      header {
+        margin-bottom: 16px;
+      }
+
+      .title-row {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.7rem;
+        letter-spacing: 0.02em;
+      }
+
+      .badge {
+        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.5);
+        color: var(--fg-muted);
+      }
+
+      .meta {
+        font-size: 0.8rem;
+        color: var(--fg-muted);
+        margin-top: 6px;
+        line-height: 1.4;
+      }
+
+      .meta code {
+        font-size: 0.75rem;
+        background: rgba(15, 23, 42, 0.8);
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+
+      /* 카테고리 필터 바 */
+      .filter-bar {
+        margin: 14px 0 10px;
+        padding: 10px 10px 8px;
+        border-radius: 14px;
+        border: 1px solid rgba(30, 64, 175, 0.7);
+        background: linear-gradient(
+          to right,
+          rgba(15, 23, 42, 0.95),
+          rgba(15, 23, 42, 0.8)
+        );
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.7);
+      }
+
+      .filter-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 10px;
+        margin-bottom: 8px;
+      }
+
+      .filter-label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--fg-muted);
+      }
+
+      .filter-label span {
+        color: var(--accent);
+      }
+
+      .filter-info {
+        font-size: 0.75rem;
+        color: var(--fg-muted);
+        text-align: right;
+      }
+
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .chip {
+        font-size: 0.78rem;
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.4);
+        background: rgba(15, 23, 42, 0.9);
+        color: var(--fg-muted);
+        cursor: pointer;
+        transition: all 0.14s ease-out;
+      }
+
+      .chip:hover {
+        border-color: rgba(96, 165, 250, 0.9);
+        color: #dbeafe;
+      }
+
+      .chip.active {
+        background: radial-gradient(circle at top left, #1d4ed8, #020617);
+        color: #e5f0ff;
+        border-color: rgba(96, 165, 250, 0.95);
+        box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.4);
+      }
+
+      /* 뉴스 리스트 */
+      .news-list {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .news-item {
+        padding: 10px 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(30, 64, 175, 0.6);
+        background: radial-gradient(
+          circle at top left,
+          rgba(15, 23, 42, 0.85),
+          rgba(15, 23, 42, 1)
+        );
+        box-shadow: 0 14px 35px rgba(15, 23, 42, 0.8);
+      }
+
+      .news-meta {
+        font-size: 0.75rem;
+        color: var(--fg-muted);
+        margin-bottom: 4px;
+      }
+
+      .news-title {
+        font-size: 1rem;
+        margin: 0 0 4px;
+      }
+
+      .news-summary {
+        font-size: 0.88rem;
+        margin: 0 0 4px;
+        color: #e5e7eb;
+      }
+
+      .news-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.75rem;
+        color: var(--fg-muted);
+        margin-top: 2px;
+      }
+
+      .news-footer-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .pill {
+        padding: 1px 7px;
+        border-radius: 999px;
+        border: 1px solid rgba(75, 85, 99, 0.7);
+        font-size: 0.7rem;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding: 14px 10px 24px;
+        }
+        h1 {
+          font-size: 1.45rem;
+        }
+        .filter-bar {
+          padding: 8px 8px 7px;
+        }
+      }
     </style>
   </head>
   <body>
-    <h1>중독뉴스</h1>
-    <div class="meta">
-      도박·게임·알코올·약물·디지털 중독 관련 전 세계 뉴스를 한국어로 요약합니다.
-      (데이터는 <code>data/news.json</code>에서 관리합니다.)
-    </div>
-    <div id="news-list" class="news-list">
-      <p style="font-size:0.85rem;color:#9ca3af;">뉴스를 불러오는 중입니다...</p>
+    <div class="page">
+      <header>
+        <div class="title-row">
+          <h1>중독뉴스</h1>
+          <span class="badge">Addiction Intelligence Newsroom</span>
+        </div>
+        <p class="meta">
+          도박·게임·알코올·약물·디지털 중독 및
+          <strong>시사</strong> 이슈와 관련된 전 세계 뉴스를 한국어로 요약합니다.
+          데이터는 <code>data/news.json</code> 파일에서 관리되며, 추후 자동
+          수집·번역·요약 파이프라인과 연동될 예정입니다.
+        </p>
+      </header>
+
+      <!-- 카테고리 필터 -->
+      <section class="filter-bar">
+        <div class="filter-head">
+          <div class="filter-label">
+            카테고리 필터
+            <span>전체 / 중독 유형 / 시사</span>
+          </div>
+          <div class="filter-info">
+            버튼을 눌러 <strong>도박정책·게임·알코올·약물·연구·치유·시사</strong> 등
+            관심 있는 영역만 볼 수 있습니다.
+          </div>
+        </div>
+        <div id="category-chips" class="chip-row"></div>
+      </section>
+
+      <!-- 뉴스 리스트 -->
+      <main>
+        <div id="news-list" class="news-list">
+          <p style="font-size:0.85rem;color:#9ca3af;">
+            뉴스를 불러오는 중입니다...
+          </p>
+        </div>
+      </main>
     </div>
 
     <script>
-      let allNews = [];
+      // ===== 카테고리 설정 =====
+      const CATEGORIES = [
+        "전체",
+        "도박정책",
+        "게임·디지털",
+        "알코올·약물",
+        "연구·논문",
+        "치유·회복",
+        "시사",
+        "기타"
+      ];
 
+      let allNews = [];
+      let currentCategory = "전체";
+
+      // 카테고리 칩 렌더링
+      function renderCategoryChips() {
+        const container = document.getElementById("category-chips");
+        container.innerHTML = CATEGORIES.map(
+          (cat) => `
+            <button
+              class="chip ${cat === currentCategory ? "active" : ""}"
+              data-category="${cat}"
+            >
+              ${cat}
+            </button>
+          `
+        ).join("");
+
+        container.querySelectorAll(".chip").forEach((chip) => {
+          chip.addEventListener("click", () => {
+            currentCategory = chip.dataset.category;
+            renderCategoryChips();
+            renderNews();
+          });
+        });
+      }
+
+      // 뉴스 리스트 렌더링
       function renderNews() {
         const container = document.getElementById("news-list");
+
         if (!allNews.length) {
           container.innerHTML =
             '<p style="font-size:0.85rem;color:#9ca3af;">등록된 뉴스가 없습니다.</p>';
           return;
         }
 
-        container.innerHTML = allNews
+        let filtered = allNews;
+
+        if (currentCategory !== "전체") {
+          filtered = allNews.filter((n) => {
+            const cat = n.category || "기타";
+            return cat === currentCategory;
+          });
+        }
+
+        if (!filtered.length) {
+          container.innerHTML =
+            '<p style="font-size:0.85rem;color:#9ca3af;">선택한 카테고리에 해당하는 뉴스가 아직 없습니다.</p>';
+          return;
+        }
+
+        container.innerHTML = filtered
           .map((n) => {
             const date = n.date || "";
             const category = n.category || "기타";
@@ -92,16 +338,35 @@
 
             return `
               <article class="news-item">
-                <div class="news-meta">[${category}] ${
+                <div class="news-meta">
+                  [${category}] ${
               country ? country + " · " : ""
-            }${date} · ${source}</div>
+            }${date} · ${source}
+                </div>
                 <h2 class="news-title">
-                  <a href="${n.url}" target="_blank">${n.title}</a>
+                  <a href="${n.url}" target="_blank" rel="noopener noreferrer">
+                    ${n.title}
+                  </a>
                 </h2>
                 <p class="news-summary">${summary}</p>
                 <div class="news-footer">
-                  <span>${country}</span>
-                  <span><a href="${n.url}" target="_blank">원문 보기 ↗</a></span>
+                  <div class="news-footer-left">
+                    ${
+                      country
+                        ? `<span class="pill">${country}</span>`
+                        : ""
+                    }
+                    ${
+                      category
+                        ? `<span class="pill">${category}</span>`
+                        : ""
+                    }
+                  </div>
+                  <div>
+                    <a href="${n.url}" target="_blank" rel="noopener noreferrer">
+                      원문 보기 ↗
+                    </a>
+                  </div>
                 </div>
               </article>
             `;
@@ -109,30 +374,35 @@
           .join("");
       }
 
+      // 뉴스 데이터 로딩
       async function loadNews() {
         try {
           const res = await fetch("data/news.json?v=" + Date.now());
           if (!res.ok) {
-            console.warn("news.json 불러오기 실패");
+            console.warn("news.json 을 불러오지 못했습니다.");
             allNews = [];
             renderNews();
             return;
           }
-          allNews = await res.json();
-          // 날짜 기준 내림차순 정렬
-          allNews = allNews.slice().sort((a, b) => {
+
+          const data = await res.json();
+          allNews = (data || []).slice().sort((a, b) => {
             if (!a.date || !b.date) return 0;
             return a.date < b.date ? 1 : -1;
           });
+
+          renderCategoryChips();
           renderNews();
         } catch (e) {
-          console.error(e);
+          console.error("뉴스 로딩 중 오류:", e);
           const container = document.getElementById("news-list");
           container.innerHTML =
             '<p style="font-size:0.85rem;color:#f97373;">뉴스를 불러오는 중 오류가 발생했습니다.</p>';
         }
       }
 
+      // 초기 실행
+      renderCategoryChips();
       loadNews();
     </script>
   </body>

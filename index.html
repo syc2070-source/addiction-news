@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>중독뉴스</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: #020617;
+        color: #e5e7eb;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 1.6rem;
+      }
+      .meta {
+        font-size: 0.8rem;
+        color: #9ca3af;
+        margin-bottom: 12px;
+      }
+      .news-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .news-item {
+        padding: 10px 12px;
+        border-radius: 12px;
+        border: 1px solid #1f2937;
+        background: #020617;
+      }
+      .news-meta {
+        font-size: 0.75rem;
+        color: #9ca3af;
+        margin-bottom: 4px;
+      }
+      .news-title {
+        font-size: 1rem;
+        margin: 0 0 4px;
+      }
+      .news-summary {
+        font-size: 0.9rem;
+        margin: 0 0 4px;
+      }
+      .news-footer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.75rem;
+        color: #9ca3af;
+      }
+      a {
+        color: #60a5fa;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>중독뉴스</h1>
+    <div class="meta">
+      도박·게임·알코올·약물·디지털 중독 관련 전 세계 뉴스를 한국어로 요약합니다.
+      (데이터는 <code>data/news.json</code>에서 관리합니다.)
+    </div>
+    <div id="news-list" class="news-list">
+      <p style="font-size:0.85rem;color:#9ca3af;">뉴스를 불러오는 중입니다...</p>
+    </div>
+
+    <script>
+      let allNews = [];
+
+      function renderNews() {
+        const container = document.getElementById("news-list");
+        if (!allNews.length) {
+          container.innerHTML =
+            '<p style="font-size:0.85rem;color:#9ca3af;">등록된 뉴스가 없습니다.</p>';
+          return;
+        }
+
+        container.innerHTML = allNews
+          .map((n) => {
+            const date = n.date || "";
+            const category = n.category || "기타";
+            const source = n.source || "";
+            const summary = n.summary_ko || "";
+            const country = n.country || "";
+
+            return `
+              <article class="news-item">
+                <div class="news-meta">[${category}] ${
+              country ? country + " · " : ""
+            }${date} · ${source}</div>
+                <h2 class="news-title">
+                  <a href="${n.url}" target="_blank">${n.title}</a>
+                </h2>
+                <p class="news-summary">${summary}</p>
+                <div class="news-footer">
+                  <span>${country}</span>
+                  <span><a href="${n.url}" target="_blank">원문 보기 ↗</a></span>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+      }
+
+      async function loadNews() {
+        try {
+          const res = await fetch("data/news.json?v=" + Date.now());
+          if (!res.ok) {
+            console.warn("news.json 불러오기 실패");
+            allNews = [];
+            renderNews();
+            return;
+          }
+          allNews = await res.json();
+          // 날짜 기준 내림차순 정렬
+          allNews = allNews.slice().sort((a, b) => {
+            if (!a.date || !b.date) return 0;
+            return a.date < b.date ? 1 : -1;
+          });
+          renderNews();
+        } catch (e) {
+          console.error(e);
+          const container = document.getElementById("news-list");
+          container.innerHTML =
+            '<p style="font-size:0.85rem;color:#f97373;">뉴스를 불러오는 중 오류가 발생했습니다.</p>';
+        }
+      }
+
+      loadNews();
+    </script>
+  </body>
+</html>

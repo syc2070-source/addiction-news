@@ -1,0 +1,20 @@
+[
+  {
+    "title": "영국, 온라인 도박 광고 규제 강화 논의",
+    "category": "도박정책",
+    "source": "UK Government White Paper (예시)",
+    "url": "https://example.com/original-article",
+    "date": "2025-11-15",
+    "summary_ko": "영국 정부는 청소년과 취약계층 보호를 위해 TV·온라인에서 노출되는 도박 광고의 시간대·빈도·표현 수위를 제한하는 방안을 검토 중이다.",
+    "country": "영국"
+  },
+  {
+    "title": "호주, 스포츠 베팅 광고 야간 시간대 제한 추진",
+    "category": "도박정책",
+    "source": "Australian Government (예시)",
+    "url": "https://example.com/article2",
+    "date": "2025-11-14",
+    "summary_ko": "호주 연방정부는 스포츠 중계 시간대에 노출되는 베팅 광고가 청소년에게 미치는 영향을 문제 삼아, 밤 8시 이전 스포츠 베팅 광고를 금지하는 방안을 검토하고 있다.",
+    "country": "호주"
+  }
+]

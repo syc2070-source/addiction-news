@@ -1,45 +1,145 @@
 === 기사1
-제목: 영국, 온라인 도박 광고 규제 강화 논의
+제목: Internet pitched as next frontier in Massachusetts gaming expansion - Cape Cod Times
 카테고리: 도박정책
-날짜: 2025-11-22
-국가: 영국
-출처: UK Government White Paper
-링크: https://example.com/original-article
-요약:
-영국 정부는 청소년과 취약계층 보호를 위해 TV·온라인에서 노출되는
-도박 광고의 시간대·빈도·표현 수위를 제한하는 방안을 검토 중이다.
-특히 스포츠 중계와 연계된 베팅 광고를 단계적으로 축소하는 내용을 포함한다.
+날짜: 2025-11-21
+국가: 미국
+출처: Cape Cod Times
+링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3JhVUxiUUttbmlTQ0tZMFVjLWM5U0lnSWxld09UXzdfaW1MWlhDY1pVN1Z0RWZhRENELWF0bFc5aTV0OEhtRlBzbVFNeWZnYjRBRzNfWnZrMjNSTFFOdjBmbzdPQXE4ZW1scktUS2g0QlJSTTY5NFl4WnM1S1pNYlN3M083ZTRNX0lTc1JzSThXMDQ2LVpwUGhoR0xLaVhMY2xMUWtEaDlIU2F0MGYwQ1N1MEdDVV91SGUxRE1NRUY?oc=5
+요약: 매사추세츠주에서 인터넷 기반의 게임 확장이 새로운 기회로 제시되고 있다. 이 지역의 게임 산업은 온라인 플랫폼을 통해 더욱 발전할 가능성이 있으며, 이는 주 정부의 세수 증가와 일자리 창출에 기여할 것으로 기대된다. 그러나 이러한 확장은 중독 문제와 같은 사회적 부작용을 동반할 수 있어, 이에 대한 철저한 정책적 대응이 필요하다. 따라서, 정책 입안자들은 게임 산업의 성장과 함께 중독 예방 및 치료를 위한 체계적인 접근이 필요함을 인식해야 한다.
 
 === 기사2
-제목: 청소년 게임 과몰입과 디지털 중독
-카테고리: 게임·디지털
+제목: Encore casino says online gambling bill is a ‘bad bet’ for Mass. - Boston.com
+카테고리: 도박정책
 날짜: 2025-11-21
-국가: 한국
-출처: 예시 연구보고서
-링크: https://example.com/article2
-요약:
-한국의 청소년 게임 과몰입 문제가 심화되면서,
-정부와 학교 현장에서 디지털 중독 예방 교육과 상담 인프라 확충이 필요한 상황이다.
-보고서는 특히 가정·학교·지역사회가 함께 개입하는 통합 접근의 중요성을 강조한다.
+국가: 미국
+출처: Boston.com
+링크: https://news.google.com/rss/articles/CBMisgFBVV95cUxORGJ2VjRtbk1oTF9QLXBrRXQ4TFlVWWswNFgxZXVrdmoyNEFQSVppVEJpUVpCS1BLSjNxcldtUFpiN01ZMmZKTndMOXlRZjRtT3pVT01DcVctRWFNTm9HVm1UR0hHVmNaTFk4dmI1Yk1mMUt2ZDZVdlZuQUc1dThZNkdjMVlwQUg0Ul82bnFyX29hUHdEbHV3cWMtaXFrQnllUWxOWHJlMkFGdXNITjNZV1dR0gG6AUFVX3lxTE1DVWpWbUowS0daX1JKYUhTcUtjOVRDT0ZhWHNqUzFEU0hWNVNLVmRZemlRN2JqSmJVd3pWOGN2dzBTMGh6U2dHeHdidWlhZ0I3dThkQzh5ODNJNUxyQVllcHBjNk9wSFcwSkZtd01hOU9CMzBWYS1YbWZCbXJ3Q0FRSjFHSVNiOTAxdDRObmY5UEN3bUcxZjdyQUV0NXl2d2lLUXF4S01BNnUyWWV1Rnk4RmV6YUNPN2xXUQ?oc=5
+요약: Encore 카지노는 매사추세츠주에서 제안된 온라인 도박 법안이 주에 부정적인 영향을 미칠 것이라고 주장하며, 이를 '나쁜 내기'로 간주하고 있습니다. 카지노 측은 온라인 도박이 기존 오프라인 카지노의 수익을 감소시킬 수 있으며, 사회적 문제를 악화시킬 우려가 있다고 경고하고 있습니다. 이러한 주장은 도박 산업의 규제와 관련된 정책 논의에서 중요한 고려사항이 될 수 있습니다. 
+
+정책적으로, 온라인 도박의 도입은 경제적 이익과 사회적 비용 간의 균형을 신중히 평가해야 함을 시사합니다.
 
 === 기사3
-제목: 중독과 사회구조적 위험을 보여주는 경제 시그널
-카테고리: 시사
-날짜: 2025-11-20
-국가: 국제
-출처: 예시 시사 분석
-링크: https://example.com/article3
-요약:
-세계 경제 불안, 불평등 심화, 플랫폼 자본주의의 확산은
-개인 중독 행동의 토양이 되는 구조적 위험 요인으로 작동한다는 분석이 제기되고 있다.
-이 보고서는 도박·게임뿐 아니라 금융·소비·SNS 중독까지 포함한
-광의의 ‘중독사회’ 프레임을 제안한다.
+제목: Best No KYC Casinos 2025 - Top No ID Verification Casinos - Cryptonews
+카테고리: 도박정책
+날짜: 2025-11-21
+국가: 미국
+출처: Cryptonews
+링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE51RHZNOE9YV0UxcHBVZ3Q2ekQxc2VMWWp6b0E0VU9ueDA5VmVId0VmbHR0T3R5WU9yNEw5SWloWW1QOF9iaDNxZjFYbHJoWDQ0bGhabXF4Y1dvMFI3NVVlQXdoVQ?oc=5
+요약: 2025년을 대비한 'KYC(고객 신원 확인) 없는 카지노'에 대한 기사에서는 신원 확인 절차 없이 이용할 수 있는 카지노의 장점과 인기 있는 플랫폼들을 소개하고 있다. 이러한 카지노는 사용자에게 더 큰 익명성을 제공하며, 암호화폐를 통한 거래가 가능해 더욱 주목받고 있다. 그러나 이러한 경향은 도박 중독 및 불법 활동의 위험성을 증가시킬 수 있는 우려를 낳고 있다. 
+
+정책적 관점에서, KYC 절차의 완화는 도박 규제의 허점을 드러내며, 중독 예방 및 사회적 안전망 구축을 위한 보다 강력한 규제가 필요함을 시사한다.
 
 === 기사4
-제목: 시사관련 샘플
+제목: The UAE’s next attraction: gambling - Financial Times
+카테고리: 도박정책
+날짜: 2025-11-21
+국가: 미국
+출처: Financial Times
+링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE5aWmJnaUlaSlIzaU15U2ZCSVYwbE1MallLNk1xR3ZHcGVadlN6bWRMYVBtTWtYNFJZeHloaXNnNl9TQ0xkNE1CcFdoVFhxeUVTQ1JTTnpUTFQ2Yng4NUlyMWhtNEllWDFlRThTd0tmMkE?oc=5
+요약: 아랍에미리트(UAE)는 새로운 관광 명소로 도박 산업을 도입할 계획을 세우고 있으며, 이는 경제 다각화의 일환으로 추진되고 있다. 정부는 외국인 관광객을 유치하고, 지역 경제를 활성화하기 위해 카지노와 도박 시설을 설립할 예정이다. 이러한 변화는 UAE의 전통적인 사회적 가치와 충돌할 가능성이 있으며, 도박 관련 규제와 정책이 필요할 것으로 보인다. 
+
+정책적 관점에서, UAE의 도박 산업 도입은 경제적 이익과 사회적 책임 간의 균형을 요구하며, 중독 예방 및 치료를 위한 체계적인 접근이 필수적이다.
+
+=== 기사5
+제목: Sri Lanka gambling regulator to launch in December - igamingbusiness.com
+카테고리: 도박정책
+날짜: 2025-11-19
+국가: 미국
+출처: igamingbusiness.com
+링크: https://news.google.com/rss/articles/CBMirgFBVV95cUxOUklmTUR4cENXUklWeG9KQ0pqY1Fhb09RRG5sUDB3b2hPZTNMSGlNaExiUWVEckk5b01QUWlRYTJFWFhZQzVnMXA5N3FCNkFtUzlFM2RuMjNoVzhvMWtjbVBaVEpBbWp2dGVqenB0LWFDTWtxdG5pMEVHSnNOZVRmbWZlU2JiMmN2cDEyM0dhelp3X1BnR1hYMEZUbkk5OEZIR21Jckhrc1NVREtZUGc?oc=5
+요약: 스리랑카의 도박 규제 기관이 12월에 출범할 예정이며, 이는 국가의 도박 산업을 관리하고 규제하기 위한 중요한 조치로 평가된다. 새로운 규제 기관은 도박 관련 법률을 시행하고, 공정한 게임 환경을 조성하는 데 기여할 것으로 기대된다. 이러한 움직임은 스리랑카의 경제 발전과 관광 산업 활성화에도 긍정적인 영향을 미칠 수 있다. 
+
+정책적 관점에서, 도박 규제의 출범은 사회적 책임을 강화하고 중독 문제를 예방하기 위한 기반을 마련하는 중요한 단계로 볼 수 있다.
+
+=== 기사6
+제목: Man, 27, charged with murder after fatal stabbing in Norwich - Eastern Daily Press
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: Eastern Daily Press
+링크: https://news.google.com/rss/articles/CBMikgFBVV95cUxPSkJnck1ZU19TTkNlTC1wWjBFTDk3c3JxUWtUS2x1a3JkdHFmcDZrZkFGOC1lclVzSS1XdFlLS2FVU1o5V0J4ZVp4bmVaZGpUanN5V0d5M0dCUTRsaDhKUVdMVmFsRWdvdGoxT1VRODhBVXZTQXJ2VDJWY1VUQUd0cjFSVTY2Z3B0bGtkemJUbGhWZw?oc=5
+요약: 27세 남성이 노리치에서 발생한 치명적인 칼부림 사건으로 살인 혐의로 기소되었습니다. 사건의 배경과 동기는 아직 밝혀지지 않았으며, 경찰은 추가 조사를 진행 중입니다. 이 사건은 지역 사회의 안전과 범죄 예방에 대한 우려를 불러일으키고 있습니다.
+
+이와 같은 폭력 사건은 중독 문제와 관련된 사회적 요인, 특히 정신 건강과 지원 시스템의 필요성을 강조합니다.
+
+=== 기사7
+제목: Eberechi Eze eclipses legends to make Arsenal vs. Tottenham history with hat-trick - ESPN
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: ESPN
+링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLWZ1OXB6cmpSSWFNWHlmbURJRFlmbTNXeGNFbVA4OUpZanJ0aTZzZHZEUnlQTFlBLW1uSUpmRzZESldhZm1OVks2LUExVXRJUll3aF85Wl9PMmctOHBQbmhITk5PMWpHdVJIUS1Ta0dRM1p2VmtHQ0w4cnVQenZ3dnd1LTNGMkdYQ1NyM2hIaTJfZVpqVTJ1MmRRVmtPTlpkUTQ2dW91aGNoYlVhT2lSZkpXVldET25kNFJhQkNNQTNDMTg?oc=5
+요약: Eberechi Eze가 아스널과 토트넘의 역사적인 경기에서 해트트릭을 기록하며 전설들을 능가하는 성과를 올렸다. 이로써 그는 두 팀 간의 경쟁에서 중요한 순간을 만들어냈으며, 팬들과 미디어의 큰 주목을 받았다. Eze의 뛰어난 활약은 젊은 선수들이 프로 스포츠에서 성공할 수 있는 가능성을 보여주는 사례로 평가된다.
+
+정책적 관점에서 볼 때, 이러한 스포츠 스타의 등장은 청소년들에게 긍정적인 롤모델을 제공하며, 중독 예방 및 건강한 여가 활동의 중요성을 강조하는 데 기여할 수 있다.
+
+=== 기사8
+제목: As it happened: Eze hattrick gives Arsenal big win over Tottenham Hotspur in North London Derby - ESPN
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: ESPN
+링크: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPM3p6c0tZbGVEOXpjb2NDWG82eHBZLVp5R1ZsT2U4R1FmN1RRMi02SmpMak9iQUtGLWNYMldhYVBIUzZVc01veW40N0M1cFMxOUEweWpKZl84SXJRc2RXc0I4dk5UNWd5d0JUR0dxbU8tYk13MGE2NG1ZTHR1TlFlUk52d0FNcEhyaUFhQmx3QVRRV1dpLTVfMDNSTWZfQTgya1d4VXpNcTZYXzN0NmRTRmpYeVBLa1ZrVlhnVWpsNzlvNERmMzVqVFBhQzhKT1k0OW5ZR04zTk5XazVaQzJOU1lqTQ?oc=5
+요약: 1) 아스널이 북런던 더비에서 토트넘 홋스퍼를 상대로 에제의 해트트릭을 통해 큰 승리를 거두었다. 이 경기는 아스널의 공격력이 돋보인 경기로, 팀의 사기를 높이는 데 기여했다. 에제는 경기 내내 뛰어난 퍼포먼스를 보여주며 팀의 승리를 이끌었다.
+
+2) 이러한 스포츠 이벤트는 지역 사회의 결속력을 강화하고, 청소년들에게 긍정적인 여가 활동을 제공하는 중요한 역할을 할 수 있다.
+
+=== 기사9
+제목: Tax delegation. Europa Verde calls for greater commitment to combating problem gambling. - PressGiochi
+카테고리: 시사
+날짜: 2025-11-22
+국가: 유럽
+출처: PressGiochi
+링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWndUWHVQQVlWUE12OVhEb2M3bVNCZkw3YlF3QW9Xb1RCeFRHTE1iY3dEM2IxQ29IMHBHd1NZRExxQmlMTGtPRHRWTTRsQ29PZXpMT0ZVWXdKM2NzQ1dBd3liclNQck9aZXZxNm1pTjUtQmh5dDIwSi1MTGt0eFZMam05Z29wNE92S1BOc0RnV19GdzhaRW1FVlFGM0xCMVc3d2t0SUFfTnFIaEdJeVl3MXVtQ0VOdkQzTVBaVzlpYng?oc=5
+요약: 유럽의 정치 단체인 유로파 베르데(Europa Verde)는 도박 중독 문제 해결을 위한 정부의 더 큰 노력을 촉구하고 있다. 이들은 세금 정책을 통해 도박 문제를 해결하기 위한 자금을 확보하고, 예방 및 치료 프로그램을 강화할 필요성을 강조하고 있다. 또한, 도박 중독이 사회에 미치는 부정적인 영향을 줄이기 위해 보다 포괄적인 접근이 필요하다고 주장하고 있다. 
+
+이러한 요구는 정책 결정자들이 도박 산업의 규제를 강화하고, 중독 예방 및 치료에 대한 사회적 책임을 다해야 함을 시사한다.
+
+=== 기사10
+제목: Michigan Online Gambling Hits Record in October - Betting News
 카테고리: 시사
 날짜: 2025-11-23
-국가: 한국
-출처: 예시 한국
-링크: https://example.com/article4
-요약: 이재명 대통령이 한 일은
+국가: 기타
+출처: Betting News
+링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxQREpXaXNKangtNjFmMmZLdzRlMzJnUzgxM0kyTXppVWlfMF9LMmNJZlRidUlPVTlWb0J6YW9jY1lzMURGMWhXejdCajR5U0xQSWtGdUNfOU9EV19BUWpVYnFPWi16Qnp2WUZqbmRvRjJqNXNJUGxDQ29GRWM0dFBHWVIya3h1ZzZkVFZiX0tlbHNRdU9WRHVRT3V3?oc=5
+요약: 미시간주에서 온라인 도박이 10월에 기록적인 수치를 기록했다. 이는 주 정부의 도박 규제 정책과 온라인 플랫폼의 활성화가 긍정적인 영향을 미쳤음을 나타낸다. 이러한 성장은 도박 산업의 경제적 기여를 강조하지만, 동시에 중독 문제와 관련된 사회적 우려도 함께 증가할 수 있다. 따라서 정책 입안자들은 도박의 경제적 이익과 사회적 비용 간의 균형을 고려해야 할 필요성이 있다.
+
+=== 기사11
+제목: NBA, MLB betting scandals: Two area professors say NCAA could be next? - Dayton Daily News
+카테고리: 시사
+날짜: 2025-11-23
+국가: 기타
+출처: Dayton Daily News
+링크: https://news.google.com/rss/articles/CBMizgFBVV95cUxNcHJwclZTSjNVV3hHRFc1aUtVR0tXNk1Rb0ZEaDM5aEJocWJncEpTMFNWZUNxWjVsVFFZaXRqOGJ5Q3FiSkVUdEVScmJOSDJEWlpNRVRfUnVnQ2liNFE1RzhlX0VvTWN1OVRhdDd0TmZib2xKbmd5QUFiSUJqV3BlUWV2LV94U09udXVrRDB1ZWdfX3V2NHJOaWxzY3dXdDkzdXZHWlk4RGo1c01LaFc2bVdkN2JDa2RVdzRHb2R5V1FVZFZBR3MtclNtdVJCQQ?oc=5
+요약: NBA와 MLB의 도박 스캔들에 대한 논의가 이어지는 가운데, 두 명의 지역 교수는 NCAA(전국 대학 체육 협회)가 다음 타겟이 될 수 있다고 경고하고 있다. 이들은 대학 스포츠에서의 도박 문제가 심각해질 가능성을 제기하며, 이를 통해 스포츠의 공정성과 신뢰성이 위협받을 수 있다고 지적한다. 이러한 상황은 스포츠 도박의 규제와 관련된 정책적 논의의 필요성을 강조한다. 
+
+따라서, 중독 문제를 해결하기 위해서는 스포츠 도박에 대한 보다 강력한 규제와 예방 정책이 필요하다는 점이 시사된다.
+
+=== 기사12
+제목: Will Google's new gambling ad rules push more bettors online? - WIN.GG
+카테고리: 시사
+날짜: 2025-11-22
+국가: 기타
+출처: WIN.GG
+링크: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxY04xN1J4ZUlhNVJhY2l5TURTRmdGam83clE0b0JmbjhXTjd0dXhYT0NFWnJnUXJ1dmdnVXF5VEhTd09MSGN3TmMyT2YtQVlpc1E?oc=5
+요약: 구글의 새로운 도박 광고 규정이 시행되면서, 온라인 도박에 대한 접근성이 증가할 것으로 예상된다. 이러한 변화는 특히 규제가 엄격한 지역에서 오프라인 도박을 선호하는 베터들이 온라인으로 이동하게 만들 가능성이 크다. 이는 도박 산업의 디지털화가 가속화될 수 있음을 시사한다. 정책적으로는, 이러한 변화가 도박 중독 문제를 심화시킬 수 있는 우려가 있으며, 이에 대한 예방 및 치료 대책이 필요하다.
+
+=== 기사13
+제목: Legislators take aim at sports-betting ads as concern grows over gambling’s risks - The Globe and Mail
+카테고리: 시사
+날짜: 2025-11-21
+국가: 기타
+출처: The Globe and Mail
+링크: https://news.google.com/rss/articles/CBMikwFBVV95cUxNQzZ6WGRRUzNfTlBHeDhzNUVxY2RYamFHR0JWcFNEeDRTUG45WEU5eTljZ2Nxd3FhX1hfSnZPSE1mZXFsTmtSa19yVGtlZ3lwV00xNTJ4YmlSdEY1Y29pWm04Tm1nQTRPSlEwYW00MzBUVWxjMmQ1OGp4bVFybURsdG0zVDdmVkxPbExmVEJzTWdfUlU?oc=5
+요약: 최근 캐나다에서 스포츠 베팅 광고에 대한 우려가 커지면서 입법자들이 이를 규제하려는 움직임을 보이고 있다. 도박의 위험성이 증가하고 있다는 인식이 확산되면서, 광고의 내용과 방식에 대한 재검토가 필요하다는 목소리가 높아지고 있다. 이러한 변화는 도박 중독 예방을 위한 사회적 책임을 강조하는 방향으로 나아가고 있다. 
+
+정책적 관점에서, 도박 광고 규제는 공공의 건강과 안전을 보호하기 위한 중요한 조치로 작용할 수 있다.
+
+=== 기사14
+제목: Internet pitched as next frontier in Massachusetts gaming expansion - Cape Cod Times
+카테고리: 시사
+날짜: 2025-11-21
+국가: 기타
+출처: Cape Cod Times
+링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3JhVUxiUUttbmlTQ0tZMFVjLWM5U0lnSWxld09UXzdfaW1MWlhDY1pVN1Z0RWZhRENELWF0bFc5aTV0OEhtRlBzbVFNeWZnYjRBRzNfWnZrMjNSTFFOdjBmbzdPQXE4ZW1scktUS2g0QlJSTTY5NFl4WnM1S1pNYlN3M083ZTRNX0lTc1JzSThXMDQ2LVpwUGhoR0xLaVhMY2xMUWtEaDlIU2F0MGYwQ1N1MEdDVV91SGUxRE1NRUY?oc=5
+요약: 매사추세츠주에서 인터넷 기반 게임 확장이 새로운 기회로 제시되고 있다. 이 지역의 게임 산업은 온라인 플랫폼을 통해 더 많은 참여를 유도하고, 경제적 이익을 창출할 수 있는 가능성을 가지고 있다. 그러나 이러한 확장은 중독 문제와 같은 사회적 부작용을 동반할 수 있어, 정책적 대응이 필요하다. 따라서, 정부는 인터넷 게임의 규제와 예방 프로그램을 강화하여 사회적 안전망을 구축해야 할 필요성이 있다.

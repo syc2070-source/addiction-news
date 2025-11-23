@@ -1,747 +1,736 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <title>중독뉴스 | Addiction Newsroom</title>
-    <meta
-      name="description"
-      content="도박·게임·알코올·약물·디지털 중독 및 시사 이슈와 관련된 전 세계 뉴스를 한국어로 요약·정리하는 중독 전문 뉴스룸입니다."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      :root {
-        --bg: #020617;
-        --bg-soft: #020617;
-        --fg: #e5e7eb;
-        --fg-muted: #9ca3af;
-        --accent: #60a5fa;
-        --accent-strong: #38bdf8;
-        --border-subtle: #111827;
-        --card-bg: rgba(15, 23, 42, 0.98);
-      }
+<head>
+  <meta charset="utf-8" />
+  <title>중독뉴스 · Addiction Intelligence Newsroom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* 기본 스타일 */
+    :root {
+      --bg: #050816;
+      --bg-soft: #080d1f;
+      --card: #0b1024;
+      --accent: #36cfc9;
+      --accent-soft: rgba(54, 207, 201, 0.12);
+      --accent-strong: #4ce0d9;
+      --text-main: #f5f7ff;
+      --text-muted: #a3b1d3;
+      --border-soft: #20263d;
+      --badge-editor: #3b82f6;
+      --badge-auto: #22c55e;
+      --chip-bg: #0f172a;
+      --chip-border: #1e293b;
+    }
 
-      * {
-        box-sizing: border-box;
-      }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-      body {
-        margin: 0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        background: radial-gradient(circle at top, #0b1f3a, #020617 55%);
-        color: var(--fg);
-      }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #020617 40%, #000 100%);
+      color: var(--text-main);
+      min-height: 100vh;
+    }
 
-      a {
-        color: var(--accent);
-        text-decoration: none;
-      }
+    a { color: inherit; text-decoration: none; }
 
-      a:hover {
-        text-decoration: underline;
-      }
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 16px 48px;
+    }
 
-      /* 상단 네비게이션 */
-      .top-nav {
-        position: sticky;
-        top: 0;
-        z-index: 20;
-        backdrop-filter: blur(16px);
-        background: linear-gradient(
-          to bottom,
-          rgba(2, 6, 23, 0.95),
-          rgba(2, 6, 23, 0.75)
-        );
-        border-bottom: 1px solid rgba(15, 23, 42, 0.95);
-      }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      gap: 16px;
+    }
 
-      .top-nav-inner {
-        max-width: 1040px;
-        margin: 0 auto;
-        padding: 10px 16px 8px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 14px;
-      }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
+    .logo-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #4ce0d9, #0f172a 70%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 18px;
+      color: #0b1024;
+      box-shadow: 0 0 25px rgba(76, 224, 217, 0.5);
+    }
 
-      .brand-logo {
-        width: 32px;
-        height: 32px;
-        border-radius: 999px;
-        background: radial-gradient(circle at 30% 20%, #38bdf8, #0f172a);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        font-weight: 700;
-        color: #e0f2fe;
-        box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.4);
-      }
+    .logo-text-main {
+      font-size: 20px;
+      font-weight: 700;
+    }
 
-      .brand-text-main {
-        font-size: 1rem;
-        font-weight: 600;
-        letter-spacing: 0.04em;
-      }
+    .logo-text-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
 
-      .brand-text-sub {
-        font-size: 0.7rem;
-        color: var(--fg-muted);
-      }
+    .nav-links {
+      display: flex;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
 
-      .nav-links {
-        display: flex;
-        gap: 12px;
-        font-size: 0.8rem;
-      }
+    .nav-link-pill {
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
 
-      .nav-links a {
-        color: var(--fg-muted);
-      }
+    .nav-link-pill.accent {
+      border-color: var(--accent);
+      color: var(--accent-strong);
+      background: rgba(54, 207, 201, 0.08);
+    }
 
-      .nav-links a:hover {
-        color: var(--fg);
-      }
+    /* 제목/설명 섹션 */
+    .hero {
+      margin-bottom: 24px;
+    }
 
-      /* 페이지 전체 레이아웃 */
-      .page {
-        max-width: 1040px;
-        margin: 0 auto;
-        padding: 18px 16px 28px;
-      }
+    .hero-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
 
-      @media (max-width: 768px) {
-        .page {
-          padding: 14px 10px 24px;
-        }
-        .top-nav-inner {
-          padding-inline: 10px;
-        }
-      }
+    .hero-title {
+      font-size: 26px;
+      font-weight: 700;
+    }
 
-      header.page-header {
-        margin-bottom: 18px;
-      }
+    .hero-tag {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      color: var(--text-muted);
+    }
 
-      .title-row {
-        display: flex;
-        align-items: baseline;
-        gap: 10px;
-        flex-wrap: wrap;
-      }
+    .hero-subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
 
-      h1 {
-        margin: 0;
-        font-size: 1.8rem;
-        letter-spacing: 0.03em;
-      }
+    .hero-subtitle code {
+      font-family: inherit;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(51, 65, 85, 0.9);
+      color: var(--accent-strong);
+      font-size: 11px;
+    }
 
-      .badge {
-        font-size: 0.75rem;
-        padding: 3px 9px;
-        border-radius: 999px;
-        border: 1px solid rgba(148, 163, 184, 0.7);
-        color: var(--fg-muted);
-      }
+    /* 필터 섹션 */
+    .filter-bar {
+      margin-top: 24px;
+      margin-bottom: 20px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(51, 65, 85, 0.9);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.92));
+      backdrop-filter: blur(18px);
+    }
 
-      .page-sub {
-        margin-top: 6px;
-        font-size: 0.85rem;
-        color: var(--fg-muted);
-        line-height: 1.5;
-      }
+    .filter-top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 8px;
+    }
 
-      .page-sub code {
-        font-size: 0.75rem;
-        background: rgba(15, 23, 42, 0.9);
-        padding: 2px 4px;
-        border-radius: 4px;
-      }
+    .filter-top-row-left {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
 
-      /* 메인 레이아웃 */
-      .main-layout {
-        display: grid;
-        grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
-        gap: 16px;
-      }
+    .filter-top-row-right {
+      font-size: 11px;
+      color: var(--accent-strong);
+    }
 
-      @media (max-width: 880px) {
-        .main-layout {
-          grid-template-columns: minmax(0, 1fr);
-        }
-      }
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
 
-      .filter-card {
-        grid-column: 1 / -1;
-        margin-bottom: 4px;
-        padding: 10px 12px 9px;
-        border-radius: 16px;
-        border: 1px solid rgba(30, 64, 175, 0.7);
-        background: linear-gradient(
-          135deg,
-          rgba(15, 23, 42, 0.96),
-          rgba(15, 23, 42, 0.9)
-        );
-        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.85);
-      }
+    .chip {
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 999px;
+      border: 1px solid var(--chip-border);
+      background: var(--chip-bg);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease-out;
+    }
 
-      .filter-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 10px;
-        margin-bottom: 8px;
-      }
+    .chip:hover {
+      border-color: rgba(148, 163, 184, 0.9);
+      color: var(--text-main);
+    }
 
-      .filter-label {
-        font-size: 0.8rem;
-        font-weight: 600;
-        color: var(--fg-muted);
-      }
+    .chip.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+    }
 
-      .filter-label span {
-        color: var(--accent-strong);
-      }
+    /* 레이아웃: 리스트 + 포커스 */
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.6fr);
+      gap: 16px;
+      align-items: flex-start;
+    }
 
-      .filter-info {
-        font-size: 0.75rem;
-        color: var(--fg-muted);
-        text-align: right;
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: minmax(0, 1fr);
       }
+    }
 
-      .chip-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
+    /* 기사 리스트 카드 */
+    .section-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 10px;
+    }
 
-      .chip {
-        font-size: 0.78rem;
-        padding: 4px 11px;
-        border-radius: 999px;
-        border: 1px solid rgba(148, 163, 184, 0.45);
-        background: rgba(15, 23, 42, 0.96);
-        color: var(--fg-muted);
-        cursor: pointer;
-        transition: all 0.16s ease-out;
-      }
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
 
-      .chip:hover {
-        border-color: rgba(96, 165, 250, 0.95);
-        color: #dbeafe;
-      }
+    .section-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
 
-      .chip.active {
-        background: radial-gradient(
-          circle at top left,
-          rgba(37, 99, 235, 0.95),
-          #020617
-        );
-        color: #e0f2fe;
-        border-color: rgba(96, 165, 250, 0.98);
-        box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.5);
-      }
+    .article-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
 
-      .list-card {
-        padding: 10px 12px 12px;
-        border-radius: 16px;
-        border: 1px solid var(--border-subtle);
-        background: var(--card-bg);
-        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
-      }
+    .article-card {
+      background: linear-gradient(135deg, rgba(10, 15, 35, 0.96), rgba(7, 10, 25, 0.96));
+      border-radius: 14px;
+      border: 1px solid rgba(30, 64, 175, 0.2);
+      padding: 10px 12px 11px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      position: relative;
+      overflow: hidden;
+    }
 
-      .section-title {
-        font-size: 0.9rem;
-        font-weight: 600;
-        margin: 0 0 8px;
-      }
+    .article-tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      font-size: 10px;
+      color: var(--text-muted);
+      margin-bottom: 3px;
+    }
 
-      .section-title span {
-        color: var(--accent-strong);
-      }
+    .pill {
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
 
-      .news-list {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-      }
+    .pill-country {
+      border-color: rgba(94, 234, 212, 0.7);
+      color: rgba(94, 234, 212, 0.9);
+    }
 
-      .news-item {
-        padding: 8px 8px 7px;
-        border-radius: 12px;
-        border: 1px solid rgba(30, 64, 175, 0.7);
-        background: radial-gradient(
-          circle at top left,
-          rgba(15, 23, 42, 0.9),
-          rgba(15, 23, 42, 1)
-        );
-      }
+    .pill-date {
+      border-color: rgba(148, 163, 184, 0.5);
+    }
 
-      .news-meta {
-        font-size: 0.75rem;
-        color: var(--fg-muted);
-        margin-bottom: 3px;
-      }
+    .pill-cat {
+      border-color: rgba(56, 189, 248, 0.7);
+      color: rgba(56, 189, 248, 0.9);
+    }
 
-      .news-title {
-        font-size: 0.95rem;
-        margin: 0 0 3px;
-      }
+    .pill-source {
+      border-color: rgba(148, 163, 184, 0.4);
+    }
 
-      .news-summary {
-        font-size: 0.86rem;
-        margin: 0 0 4px;
-        color: #e5e7eb;
-      }
+    .pill-badge-editor {
+      border-color: rgba(59, 130, 246, 0.7);
+      color: rgba(129, 199, 255, 0.95);
+    }
 
-      .news-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.75rem;
-        color: var(--fg-muted);
-      }
+    .pill-badge-auto {
+      border-color: rgba(34, 197, 94, 0.7);
+      color: rgba(74, 222, 128, 0.95);
+    }
 
-      .news-footer-left {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
+    .article-title-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: flex-start;
+      margin-bottom: 3px;
+    }
 
-      .pill {
-        padding: 1px 7px;
-        border-radius: 999px;
-        border: 1px solid rgba(75, 85, 99, 0.85);
-        font-size: 0.7rem;
-      }
+    .article-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
 
-      .focus-card {
-        padding: 10px 12px 12px;
-        border-radius: 16px;
-        border: 1px solid rgba(30, 64, 175, 0.85);
-        background: radial-gradient(
-          circle at top left,
-          rgba(30, 64, 175, 0.7),
-          rgba(15, 23, 42, 1)
-        );
-        box-shadow: 0 20px 45px rgba(15, 23, 42, 0.95);
-      }
+    .article-summary {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
 
-      .focus-kicker {
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.16em;
-        color: #bfdbfe;
-        margin-bottom: 4px;
-      }
+    .article-footer {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--accent-strong);
+    }
 
-      .focus-title {
-        font-size: 1.05rem;
-        margin: 0 0 4px;
-      }
+    .article-footer a {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
 
-      .focus-meta {
-        font-size: 0.78rem;
-        color: #bfdbfe;
-        margin-bottom: 6px;
-      }
+    .article-footer-right {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
 
-      .focus-summary {
-        font-size: 0.87rem;
-        margin: 0 0 6px;
-        color: #e5f0ff;
-      }
+    /* 포커스 카드 */
+    .focus-card {
+      background: radial-gradient(circle at top left, rgba(76, 224, 217, 0.18), transparent 60%),
+                  radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.35), #020617 70%);
+      border-radius: 18px;
+      border: 1px solid rgba(37, 99, 235, 0.6);
+      padding: 14px 14px 16px;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
+    }
 
-      .focus-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.76rem;
-        color: #bfdbfe;
-      }
+    .focus-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
 
-      .focus-pill {
-        padding: 2px 8px;
-        border-radius: 999px;
-        border: 1px solid rgba(191, 219, 254, 0.8);
-        font-size: 0.7rem;
-      }
+    .focus-tag-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      font-size: 10px;
+      margin-bottom: 6px;
+    }
 
-      .focus-empty {
-        font-size: 0.8rem;
-        color: #e5e7eb;
-      }
+    .focus-heading {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
 
-      .focus-note {
-        margin-top: 6px;
-        font-size: 0.75rem;
-        color: rgba(226, 232, 240, 0.8);
-      }
+    .focus-summary {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
 
-      footer {
-        margin-top: 16px;
-        font-size: 0.75rem;
-        color: var(--fg-muted);
-        text-align: center;
-        padding-top: 10px;
-        border-top: 1px solid rgba(15, 23, 42, 0.9);
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="top-nav">
-      <div class="top-nav-inner">
-        <div class="brand">
-          <div class="brand-logo">N</div>
-          <div>
-            <div class="brand-text-main">중독뉴스</div>
-            <div class="brand-text-sub">
-              Addiction Intelligence Newsroom
-            </div>
-          </div>
-        </div>
-        <div class="nav-links">
-          <a href="#">홈</a>
-          <a href="#">데이터 허브(예정)</a>
-          <a
-            href="https://syc2070-source.github.io/addiction-society/"
-            target="_blank"
-            >중독사회로 이동 ↗</a
-          >
-        </div>
+    .focus-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 11px;
+    }
+
+    .focus-footer a {
+      color: var(--accent-strong);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    footer {
+      margin-top: 28px;
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .muted-link {
+      color: var(--text-muted);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="logo">
+      <div class="logo-badge">N</div>
+      <div>
+        <div class="logo-text-main">중독뉴스</div>
+        <div class="logo-text-sub">Addiction Intelligence Newsroom</div>
       </div>
+    </div>
+    <nav class="nav-links">
+      <span class="nav-link-pill accent">홈</span>
+      <span class="nav-link-pill">데이터 허브(예정)</span>
+      <a href="https://syc2070-source.github.io/addiction-society/" class="nav-link-pill">중독사회로 이동 ↗</a>
     </nav>
+  </header>
 
-    <div class="page">
-      <header class="page-header">
-        <div class="title-row">
-          <h1>오늘의 중독·시사 브리핑</h1>
-          <span class="badge">전 세계 중독·도박·시사 동향 요약</span>
-        </div>
-        <p class="page-sub">
-          도박·게임·알코올·약물·디지털 중독과 관련된 글로벌 뉴스, 그리고 구조적
-          위험을 보여 주는 <strong>시사 이슈</strong>를 선별해 한국어로
-          요약합니다. 데이터는 <code>data/news.txt</code> 파일에서 관리되며,
-          향후 자동 수집·번역·요약 파이프라인과 QAICLE 통계엔진과의 연동을
-          목표로 합니다.
-        </p>
-      </header>
+  <section class="hero">
+    <div class="hero-title-row">
+      <div class="hero-title">오늘의 중독·시사 브리핑</div>
+      <div class="hero-tag">전 세계 도박·게임·알코올·약물·디지털 중독과 구조적 위험 요약</div>
+    </div>
+    <p class="hero-subtitle">
+      도박·게임·알코올·약물·디지털 중독 관련 글로벌 뉴스, 그리고
+      구조적 위험을 보여 주는 시사 이슈를 선별해 한국어로 요약합니다.
+      데이터는 <code>data/news.txt</code> 와 <code>data/news_auto.txt</code> 에서 불러옵니다.
+    </p>
+  </section>
 
-      <section class="main-layout">
-        <div class="filter-card">
-          <div class="filter-head">
-            <div class="filter-label">
-              카테고리 필터
-              <span>전체 / 중독 유형 / 시사</span>
-            </div>
-            <div class="filter-info">
-              관심 있는 영역(도박정책·게임·알코올·약물·연구·치유·시사)을 선택하면
-              오른쪽 포커스와 아래 리스트가 함께 바뀝니다.
-            </div>
-          </div>
-          <div id="category-chips" class="chip-row"></div>
-        </div>
+  <section class="filter-bar">
+    <div class="filter-top-row">
+      <div class="filter-top-row-left" id="filter-info">
+        카테고리 필터 · 현재: <strong>전체</strong>
+      </div>
+      <div class="filter-top-row-right" id="count-info">
+        총 0건 (수동 기사 + 자동 기사)
+      </div>
+    </div>
+    <div class="chip-row" id="category-chips">
+      <button class="chip active" data-category="전체">전체</button>
+      <button class="chip" data-category="도박정책">도박정책</button>
+      <button class="chip" data-category="게임·디지털">게임·디지털</button>
+      <button class="chip" data-category="알코올·약물">알코올·약물</button>
+      <button class="chip" data-category="시사">시사</button>
+    </div>
+  </section>
 
-        <div class="list-card">
-          <h2 class="section-title">
-            최신 기사 <span id="category-label">(전체)</span>
-          </h2>
-          <div id="news-list" class="news-list">
-            <p style="font-size:0.85rem;color:#9ca3af;">
-              뉴스를 불러오는 중입니다...
-            </p>
-          </div>
-        </div>
-
-        <aside class="focus-card">
-          <div id="focus-content">
-            <p class="focus-empty">
-              포커스 기사를 불러오는 중입니다...
-            </p>
-          </div>
-          <p class="focus-note">
-            가장 최근 기사 중 한 건을 <strong>오늘의 포커스</strong>로
-            보여줍니다. 카테고리를 바꾸면 해당 영역 내 최신 기사가 여기로
-            올라옵니다.
-          </p>
-        </aside>
-      </section>
-
-      <footer>
-        © <span id="year"></span> 중독뉴스 · Addiction Intelligence Newsroom ·
-        GitHub Pages 기반 정적 사이트
-      </footer>
+  <section class="grid">
+    <div>
+      <div class="section-title-row">
+        <div class="section-title">최신 기사</div>
+        <div class="section-sub" id="list-subtitle">전체 카테고리</div>
+      </div>
+      <div class="article-list" id="article-list"></div>
     </div>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
+    <aside>
+      <div class="section-title-row">
+        <div class="section-title">TODAY&apos;S FOCUS</div>
+        <div class="section-sub" id="focus-subtitle">선택된 포커스 기사</div>
+      </div>
+      <div class="focus-card" id="focus-card">
+        <p class="focus-title">로딩 중…</p>
+        <p class="focus-summary">뉴스 데이터를 불러오는 중입니다.</p>
+      </div>
+    </aside>
+  </section>
 
-      const CATEGORIES = [
-        "전체",
-        "도박정책",
-        "게임·디지털",
-        "알코올·약물",
-        "연구·논문",
-        "치유·회복",
-        "시사",
-        "기타"
-      ];
+  <footer>
+    <div>© 2025 중독뉴스 · Addiction Intelligence Newsroom · GitHub Pages 기반 정적 사이트</div>
+    <div>데이터 파일:
+      <a class="muted-link" href="data/news.txt">news.txt</a> ·
+      <a class="muted-link" href="data/news_auto.txt">news_auto.txt</a>
+    </div>
+  </footer>
+</div>
 
-      let allNews = [];
-      let currentCategory = "전체";
+<script>
+  // 전역 상태
+  let ALL_ARTICLES = [];
+  let CURRENT_CATEGORY = "전체";
 
-      // 카테고리 칩 렌더링
-      function renderCategoryChips() {
-        const container = document.getElementById("category-chips");
-        container.innerHTML = CATEGORIES.map(
-          (cat) => `
-            <button
-              class="chip ${cat === currentCategory ? "active" : ""}"
-              data-category="${cat}"
-            >
-              ${cat}
-            </button>
-          `
-        ).join("");
+  document.addEventListener("DOMContentLoaded", () => {
+    setupCategoryChips();
+    loadAllNews();
+  });
 
-        container.querySelectorAll(".chip").forEach((chip) => {
-          chip.addEventListener("click", () => {
-            currentCategory = chip.dataset.category;
-            renderCategoryChips();
-            updateView();
-          });
+  function setupCategoryChips() {
+    const chips = document.querySelectorAll("#category-chips .chip");
+    chips.forEach(chip => {
+      chip.addEventListener("click", () => {
+        chips.forEach(c => c.classList.remove("active"));
+        chip.classList.add("active");
+        CURRENT_CATEGORY = chip.dataset.category || "전체";
+        renderArticles();
+      });
+    });
+  }
+
+  async function loadAllNews() {
+    try {
+      const [manualText, autoText] = await Promise.all([
+        fetch("data/news.txt").then(r => r.ok ? r.text() : ""),
+        fetch("data/news_auto.txt").then(r => r.ok ? r.text() : "")
+      ]);
+
+      const manualArticles = parseNewsText(manualText, "manual");
+      const autoArticles = parseNewsText(autoText, "auto");
+
+      ALL_ARTICLES = [...manualArticles, ...autoArticles]
+        .filter(a => a.title)
+        .sort((a, b) => {
+          if (a.dateObj && b.dateObj) return b.dateObj - a.dateObj;
+          if (a.dateObj) return -1;
+          if (b.dateObj) return 1;
+          return 0;
         });
-      }
 
-      function updateView() {
-        const label = document.getElementById("category-label");
-        label.textContent =
-          currentCategory === "전체" ? "(전체)" : `(${currentCategory})`;
+      renderArticles();
+    } catch (e) {
+      console.error(e);
+      const card = document.getElementById("focus-card");
+      card.innerHTML = "<p class='focus-summary'>뉴스 데이터를 불러오는 중 오류가 발생했습니다. data/news.txt 와 data/news_auto.txt 가 존재하는지 확인해 주세요.</p>";
+    }
+  }
 
-        let candidates =
-          currentCategory === "전체"
-            ? allNews
-            : allNews.filter(
-                (n) => (n.category || "기타") === currentCategory
-              );
+  // news.txt / news_auto.txt 공통 파서
+  function parseNewsText(text, sourceType) {
+    const articles = [];
+    if (!text || !text.trim()) return articles;
 
-        const featured = candidates[0] || null;
-        const rest = featured ? candidates.slice(1) : candidates;
+    // "=== 기사1" 기준으로 분리
+    const blocks = text.split(/=== 기사[^\n]*/g);
+    for (const rawBlock of blocks) {
+      const block = rawBlock.trim();
+      if (!block) continue;
 
-        renderFocus(featured);
-        renderNewsList(rest);
-      }
+      const lines = block.split(/\r?\n/);
+      const art = {
+        sourceType,
+        title: "",
+        category: "기타",
+        date: "",
+        dateObj: null,
+        country: "",
+        source: "",
+        url: "",
+        summary: ""
+      };
 
-      function renderFocus(item) {
-        const container = document.getElementById("focus-content");
-        if (!item) {
-          container.innerHTML =
-            '<p class="focus-empty">선택한 카테고리에 해당하는 최신 포커스 기사가 아직 없습니다.</p>';
-          return;
+      let inSummary = false;
+      const summaryLines = [];
+
+      for (let line of lines) {
+        line = line.trim();
+        if (!line) {
+          if (inSummary) summaryLines.push("");
+          continue;
         }
-
-        const date = item.date || "";
-        const category = item.category || "기타";
-        const source = item.source || "";
-        const summary = item.summary_ko || "";
-        const country = item.country || "";
-
-        container.innerHTML = `
-          <div class="focus-kicker">Today&#39;s Focus</div>
-          <h2 class="focus-title">
-            <a href="${item.url}" target="_blank" rel="noopener noreferrer">
-              ${item.title}
-            </a>
-          </h2>
-          <div class="focus-meta">
-            [${category}] ${
-          country ? country + " · " : ""
-        }${date} · ${source}
-          </div>
-          <p class="focus-summary">${summary}</p>
-          <div class="focus-footer">
-            <div>
-              ${
-                country
-                  ? `<span class="focus-pill">${country}</span>`
-                  : ""
-              }
-              ${
-                category
-                  ? `<span class="focus-pill">${category}</span>`
-                  : ""
-              }
-            </div>
-            <div>
-              <a href="${item.url}" target="_blank" rel="noopener noreferrer">
-                원문 전체 보기 ↗
-              </a>
-            </div>
-          </div>
-        `;
-      }
-
-      function renderNewsList(list) {
-        const container = document.getElementById("news-list");
-
-        if (!allNews.length) {
-          container.innerHTML =
-            '<p style="font-size:0.85rem;color:#9ca3af;">등록된 뉴스가 없습니다.</p>';
-          return;
-        }
-
-        if (!list.length) {
-          container.innerHTML =
-            '<p style="font-size:0.85rem;color:#9ca3af;">포커스 기사 외에 추가로 보여 줄 기사가 없습니다.</p>';
-          return;
-        }
-
-        container.innerHTML = list
-          .map((n) => {
-            const date = n.date || "";
-            const category = n.category || "기타";
-            const source = n.source || "";
-            const summary = n.summary_ko || "";
-            const country = n.country || "";
-
-            return `
-              <article class="news-item">
-                <div class="news-meta">
-                  [${category}] ${
-              country ? country + " · " : ""
-            }${date} · ${source}
-                </div>
-                <h3 class="news-title">
-                  <a href="${n.url}" target="_blank" rel="noopener noreferrer">
-                    ${n.title}
-                  </a>
-                </h3>
-                <p class="news-summary">${summary}</p>
-                <div class="news-footer">
-                  <div class="news-footer-left">
-                    ${
-                      country
-                        ? `<span class="pill">${country}</span>`
-                        : ""
-                    }
-                    ${
-                      category
-                        ? `<span class="pill">${category}</span>`
-                        : ""
-                    }
-                  </div>
-                  <div>
-                    <a href="${n.url}" target="_blank" rel="noopener noreferrer">
-                      원문 보기 ↗
-                    </a>
-                  </div>
-                </div>
-              </article>
-            `;
-          })
-          .join("");
-      }
-
-      // news.txt 파싱
-      function parseNewsText(text) {
-        const lines = text.split(/\r?\n/);
-        const blocks = [];
-        let current = [];
-
-        for (const rawLine of lines) {
-          const line = rawLine.replace(/\s+$/, "");
-          if (line.trim().startsWith("===")) {
-            if (current.length) {
-              blocks.push(current.join("\n").trim());
-              current = [];
-            }
-          } else {
-            current.push(line);
-          }
-        }
-        if (current.length) {
-          blocks.push(current.join("\n").trim());
-        }
-
-        const articles = [];
-
-        for (const block of blocks) {
-          if (!block) continue;
-          const obj = {};
-
-          const getSingle = (label) => {
-            const re = new RegExp("^" + label + "\\s*:\\s*(.*)$", "m");
-            const m = block.match(re);
-            return m ? m[1].trim() : "";
-          };
-
-          obj.title = getSingle("제목");
-          obj.category = getSingle("카테고리") || "기타";
-          obj.date = getSingle("날짜");
-          obj.country = getSingle("국가");
-          obj.source = getSingle("출처");
-          obj.url = getSingle("링크");
-
-          const lines = block.split(/\r?\n/);
-          const summaryIndex = lines.findIndex((l) =>
-            l.trim().startsWith("요약:")
-          );
-          if (summaryIndex >= 0) {
-            const summaryLines = lines.slice(summaryIndex + 1);
-            obj.summary_ko = summaryLines.join("\n").trim();
-          } else {
-            obj.summary_ko = "";
-          }
-
-          if (obj.title) {
-            articles.push(obj);
-          }
-        }
-
-        return articles;
-      }
-
-      async function loadNews() {
-        try {
-          const res = await fetch("data/news.txt?v=" + Date.now());
-          if (!res.ok) {
-            console.warn("news.txt 를 불러오지 못했습니다.");
-            allNews = [];
-            renderNewsList([]);
-            renderFocus(null);
-            return;
-          }
-
-          const text = await res.text();
-          allNews = parseNewsText(text);
-
-          allNews = allNews.slice().sort((a, b) => {
-            if (!a.date || !b.date) return 0;
-            return a.date < b.date ? 1 : -1;
-          });
-
-          renderCategoryChips();
-          updateView();
-        } catch (e) {
-          console.error("뉴스 로딩 중 오류:", e);
-          const list = document.getElementById("news-list");
-          list.innerHTML =
-            '<p style="font-size:0.85rem;color:#f97373;">뉴스를 불러오는 중 오류가 발생했습니다.</p>';
-          const focus = document.getElementById("focus-content");
-          focus.innerHTML =
-            '<p class="focus-empty">포커스 기사를 불러오는 중 오류가 발생했습니다.</p>';
+        if (line.startsWith("제목:")) {
+          art.title = line.replace("제목:", "").trim();
+        } else if (line.startsWith("카테고리:")) {
+          art.category = line.replace("카테고리:", "").trim();
+        } else if (line.startsWith("날짜:")) {
+          const d = line.replace("날짜:", "").trim();
+          art.date = d;
+          const dt = parseKoreanDate(d);
+          if (dt) art.dateObj = dt;
+        } else if (line.startsWith("국가:")) {
+          art.country = line.replace("국가:", "").trim();
+        } else if (line.startsWith("출처:")) {
+          art.source = line.replace("출처:", "").trim();
+        } else if (line.startsWith("링크:")) {
+          art.url = line.replace("링크:", "").trim();
+        } else if (line.startsWith("요약:")) {
+          inSummary = true;
+        } else if (inSummary) {
+          summaryLines.push(line);
         }
       }
 
-      loadNews();
-      renderCategoryChips();
-    </script>
-  </body>
+      art.summary = summaryLines.join("\n").trim();
+      articles.push(art);
+    }
+    return articles;
+  }
+
+  function parseKoreanDate(str) {
+    // "2025-11-23" 같은 형식 기준
+    if (!str) return null;
+    // 공백 제거
+    const trimmed = str.trim();
+    // YYYY-MM-DD 형태면 그대로
+    if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+      return new Date(trimmed + "T00:00:00");
+    }
+    // 그 외는 Date가 이해하면 쓰고, 안 되면 null
+    const dt = new Date(trimmed);
+    return isNaN(dt.getTime()) ? null : dt;
+  }
+
+  function renderArticles() {
+    const listEl = document.getElementById("article-list");
+    const filterInfo = document.getElementById("filter-info");
+    const listSubtitle = document.getElementById("list-subtitle");
+    const countInfo = document.getElementById("count-info");
+
+    if (!ALL_ARTICLES.length) {
+      listEl.innerHTML = "<p class='section-sub'>표시할 기사가 없습니다.</p>";
+      return;
+    }
+
+    const filtered = ALL_ARTICLES.filter(a =>
+      CURRENT_CATEGORY === "전체" || a.category === CURRENT_CATEGORY
+    );
+
+    filterInfo.innerHTML = `카테고리 필터 · 현재: <strong>${CURRENT_CATEGORY}</strong>`;
+    listSubtitle.textContent = CURRENT_CATEGORY === "전체"
+      ? "전체 카테고리"
+      : `${CURRENT_CATEGORY} 카테고리`;
+
+    const manualCount = filtered.filter(a => a.sourceType === "manual").length;
+    const autoCount = filtered.filter(a => a.sourceType === "auto").length;
+    countInfo.textContent = `총 ${filtered.length}건 (수동 ${manualCount} · 자동 ${autoCount})`;
+
+    listEl.innerHTML = "";
+    filtered.forEach((art, idx) => {
+      const card = document.createElement("article");
+      card.className = "article-card";
+      card.innerHTML = renderArticleCardHTML(art);
+      card.addEventListener("click", () => {
+        renderFocusCard(art);
+        // 스크롤 작은 화면용
+        if (window.innerWidth < 900) {
+          document.getElementById("focus-card").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+      listEl.appendChild(card);
+      if (idx === 0) {
+        renderFocusCard(art);
+      }
+    });
+  }
+
+  function renderArticleCardHTML(art) {
+    const badge =
+      art.sourceType === "auto"
+        ? '<span class="pill pill-badge-auto">AUTO</span>'
+        : '<span class="pill pill-badge-editor">EDITOR</span>';
+
+    const cat = art.category ? `<span class="pill pill-cat">${escapeHtml(art.category)}</span>` : "";
+    const country = art.country ? `<span class="pill pill-country">${escapeHtml(art.country)}</span>` : "";
+    const date = art.date ? `<span class="pill pill-date">${escapeHtml(art.date)}</span>` : "";
+    const source = art.source ? `<span class="pill pill-source">${escapeHtml(art.source)}</span>` : "";
+
+    const shortSummary = art.summary.length > 180
+      ? art.summary.slice(0, 180) + "…"
+      : art.summary;
+
+    const urlPart = art.url
+      ? `<a href="${escapeAttribute(art.url)}" target="_blank" rel="noopener">원문 보기 ↗</a>`
+      : "";
+
+    return `
+      <div class="article-tag-row">
+        ${badge}
+        ${country}
+        ${date}
+        ${cat}
+        ${source}
+      </div>
+      <div class="article-title-row">
+        <div class="article-title">${escapeHtml(art.title || "(제목 없음)")}</div>
+      </div>
+      <div class="article-summary">${escapeHtml(shortSummary || "")}</div>
+      <div class="article-footer">
+        <div>${urlPart}</div>
+        <div class="article-footer-right">
+          ${art.sourceType === "auto" ? "자동 수집·요약" : "편집자 선택 기사"}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderFocusCard(art) {
+    const card = document.getElementById("focus-card");
+    const subtitle = document.getElementById("focus-subtitle");
+
+    subtitle.textContent = `${art.category || "기타"} · ${art.country || ""}`.trim();
+
+    const badge =
+      art.sourceType === "auto"
+        ? '<span class="pill pill-badge-auto">AUTO</span>'
+        : '<span class="pill pill-badge-editor">EDITOR</span>';
+
+    const cat = art.category ? `<span class="pill pill-cat">${escapeHtml(art.category)}</span>` : "";
+    const country = art.country ? `<span class="pill pill-country">${escapeHtml(art.country)}</span>` : "";
+    const date = art.date ? `<span class="pill pill-date">${escapeHtml(art.date)}</span>` : "";
+    const source = art.source ? `<span class="pill pill-source">${escapeHtml(art.source)}</span>` : "";
+
+    const urlPart = art.url
+      ? `<a href="${escapeAttribute(art.url)}" target="_blank" rel="noopener">원문 전체 보기 ↗</a>`
+      : "";
+
+    card.innerHTML = `
+      <p class="focus-title">[${escapeHtml(art.category || "기타")}] ${escapeHtml(art.country || "")} · ${escapeHtml(art.date || "")}</p>
+      <div class="focus-tag-row">
+        ${badge}
+        ${country}
+        ${date}
+        ${cat}
+        ${source}
+      </div>
+      <p class="focus-heading">${escapeHtml(art.title || "(제목 없음)")}</p>
+      <p class="focus-summary">${escapeHtml(art.summary || "")}</p>
+      <div class="focus-footer">
+        <div>${urlPart}</div>
+        <div>${art.sourceType === "auto" ? "자동 수집·요약 기사" : "편집자 선정 기사"}</div>
+      </div>
+    `;
+  }
+
+  function escapeHtml(str) {
+    return (str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function escapeAttribute(str) {
+    return escapeHtml(str).replace(/"/g, "&quot;");
+  }
+</script>
+</body>
 </html>

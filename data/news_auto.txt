@@ -1,149 +1,127 @@
 === 기사1
-제목: Opinion: Gambling addiction is afflicting our athletes – and sports at large - The Globe and Mail
-카테고리: 도박정책
-날짜: 2025-11-21
-국가: 국제
-출처: The Globe and Mail
-링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxQSnRKRkk0bWJHSVBaU3hyNmltYVM0d3UyNWpTeG1WM3dHUHJKd0NqSTFCYUZQTlZ6d0QzRlBVMm9UOVpwZHNnR1Q5Rm1aTERfc240U0xEcXRJWVNiZ0hoWXVNSDNKdTEzTVZYRVJDaUg1SFAzclpBSVpqTzlvLVp1ZE4xVS1LbkJCOUdNOXhCQ1BFamxvTFE?oc=5
-요약:
-이 기사는 도박 중독이 운동선수와 스포츠 전반에 심각한 영향을 미치고 있음을 지적한다. 특히 스포츠 베팅의 확산과 플랫폼 자본주의의 결합으로 인해 선수들이 도박에 쉽게 노출되고, 이는 경기 공정성과 선수 개인의 정신건강에 부정적 영향을 초래한다. 현재 규제는 도박 산업의 급속한 성장 속도를 따라가지 못해 구조적 위험이 심화되고 있으며, 선수 보호를 위한 정책적 개입이 시급하다. 중독사회 관점에서 이는 스포츠를 둘러싼 경제적 불평등과 권력 구조가 도박 중독 문제를 악화시키는 사회적 문제임을 보여준다.
-
-=== 기사2
-제목: Internet pitched as next frontier in Massachusetts gaming expansion - Cape Cod Times
-카테고리: 도박정책
-날짜: 2025-11-21
-국가: 국제
-출처: Cape Cod Times
-링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN3JhVUxiUUttbmlTQ0tZMFVjLWM5U0lnSWxld09UXzdfaW1MWlhDY1pVN1Z0RWZhRENELWF0bFc5aTV0OEhtRlBzbVFNeWZnYjRBRzNfWnZrMjNSTFFOdjBmbzdPQXE4ZW1scktUS2g0QlJSTTY5NFl4WnM1S1pNYlN3M083ZTRNX0lTc1JzSThXMDQ2LVpwUGhoR0xLaVhMY2xMUWtEaDlIU2F0MGYwQ1N1MEdDVV91SGUxRE1NRUY?oc=5
-요약:
-매사추세츠 주에서 인터넷 도박을 새로운 게임 확장의 핵심 영역으로 추진하고 있어 도박 중독 위험이 증가할 우려가 제기된다. 온라인 플랫폼을 통한 접근성이 높아지면서 도박 이용자 수가 급증할 가능성이 있으며, 이에 따른 중독 문제와 사회적 비용도 확대될 전망이다. 현지 정책은 전통적 오프라인 도박 규제에서 벗어나 디지털 도박 시장을 포괄하는 방향으로 변화하고 있으나, 중독 예방 및 치료 체계는 아직 충분히 마련되지 않은 상태다. 이러한 변화는 플랫폼 자본주의가 도박 산업에 깊숙이 침투하며, 중독 문제를 개인의 책임으로 전가하는 구조적 위험과 불평등을 심화시킬 수 있음을 시사한다. 따라서 도박 중독에 대한 사회적 인식 강화와 함께 규제 강화 및 공공 지원 확대가 필요하다.
-
-=== 기사3
-제목: Gaming disorder in the ICD-11: the state of the game - BMC Psychiatry
-카테고리: 게임·디지털
-날짜: 2025-11-21
-국가: 국제
-출처: BMC Psychiatry
-링크: https://news.google.com/rss/articles/CBMigAFBVV95cUxNWXNfOE1EVGdjRm1rOEFKYzM2bXo3cWxrWmlpYmJNS1FPUE91cXo0OTNNdFhkWGs1UERaNk5WRzhGLVNOSGdBR3hObzMxRVNQRlc3WHFSSk94bEVFVXYxZHJKUnloTDZoRDJMQ1pQMEtYZXg1RUw4bVlXcDhCN3lSWA?oc=5
-요약:
-이 기사는 ICD-11에 포함된 게임장애(gaming disorder)를 중심으로 게임 중독의 현황과 정책적 대응을 다룬다. 게임장애는 도박·알코올 중독과 유사한 뇌 보상체계의 문제로 인식되며, WHO가 공식 진단 기준을 마련함으로써 중독의 질병화와 규제 필요성이 부각되었다. 그러나 게임 산업의 성장과 플랫폼 자본주의 구조 속에서 규제는 산업적 이해관계와 충돌하며, 청소년 및 취약계층의 중독 위험이 사회적 불평등을 심화시키는 구조적 문제로 지적된다. 따라서 단순 개인의 문제를 넘어 사회적, 정책적 차원의 통합적 대응과 예방 전략이 요구된다.
-
-=== 기사4
-제목: International Human Rights Day - Alcohol and Drug Foundation
-카테고리: 알코올·약물
-날짜: 2025-11-21
-국가: 국제
-출처: Alcohol and Drug Foundation
-링크: https://news.google.com/rss/articles/CBMiY0FVX3lxTE91ckFjY2pfZER6VFpQWm9Ca19Pa3dfWHNRSGNBWnZOTkl4SWF4bkRVUlo2NGM4ejBIRkV4UzdkUHFtdlRGNWtsUnlESkJ2Sy1wckgxRGs2dV9lQWdKVVdJSnQxTQ?oc=5
-요약:
-해당 기사는 국제인권의 날을 맞아 알코올 및 약물 중독 문제를 인권 관점에서 조명하며, 중독자에 대한 차별과 낙인을 해소하는 정책적 접근의 필요성을 강조합니다. 알코올과 약물 중독은 개인의 건강 문제를 넘어 사회적 불평등과 구조적 위험을 심화시키는 요인으로 작용하며, 효과적인 규제와 지원 체계 마련이 시급하다고 지적합니다. 특히 중독 문제는 사회경제적 취약계층에 더 큰 영향을 미쳐 플랫폼 자본주의 하에서 불평등이 심화되는 구조적 문제로 볼 수 있습니다. 따라서 중독 예방과 치료 정책은 단순한 개인 책임을 넘어 사회적 권리와 복지 차원에서 접근해야 한다는 점이 중요하게 다뤄집니다.
-
-=== 기사5
-제목: Sports gambling ads in Canada must be reined in, senators urge in letter - National - Global News
-카테고리: 도박정책
-날짜: 2025-11-20
-국가: 국제
-출처: Global News
-링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOTVzX1h5Ty1DYi1TNGxFMnpBUE1Od1JCbEVWeUdKbnV3QWtuNTlhb2dQMzZzMkNNaC03ZUZSd3Y3MVJSZV9DQVBQOUVpblJ0bXQ2US1aYzNfWV95OW81dFh3ZmJpZTM3WHAtQzlMSzBmT1ZWcUlMVVl2dGpKaGVHbzcwaTZLMmot?oc=5
-요약:
-캐나다 상원의원들이 스포츠 도박 광고의 과도한 노출을 규제할 것을 촉구하는 서한을 발표했다. 이는 도박 중독 증가와 청소년 및 취약계층의 노출 위험이 커지는 사회적 문제를 반영한 조치로, 현재 스포츠 도박 광고가 플랫폼 자본주의 환경에서 무분별하게 확산되고 있다는 점을 지적한다. 규제 강화 요구는 도박 중독의 구조적 위험을 줄이고, 사회적 불평등을 심화시키는 광고 산업의 영향력을 제한하려는 시도로 볼 수 있다. 이러한 움직임은 디지털 및 도박 중독 문제를 통합적으로 관리하는 정책 필요성을 시사하며, 중독사회에서의 공공 건강 보호와 사회적 책임 강화의 중요성을 부각한다.
-
-=== 기사6
-제목: Legal regulations for the online gambling industry across US states - News and Sentinel
-카테고리: 도박정책
-날짜: 2025-11-20
-국가: 국제
-출처: News and Sentinel
-링크: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOVhTdG1nVl9zdm0zc3E0TWs1MGc2MTFoTEtGeU81NTBfVUJTam43R0JzT3h3dnotaDlQNkxiQW9QVk1uZkFjSG9Dd1MxS3FPbGVfUEtIZG5MUjV6QktBTzZGZ29NV2ZhZjUzN0xrclhhbEs2VjdtWmxuLUtEZklCVUIxWG00V2dVTmI5b0tkTVRqVjMtVGhmcl92NHMxUnRrN29ZZ0ZwM2RhXy1icHgza2hvY2ZsT2hZTy1BMUo4dw?oc=5
-요약:
-미국 내 온라인 도박 산업에 대한 주별 법적 규제가 다양하게 시행되고 있으며, 일부 주에서는 합법화를 통해 시장을 공식화하는 반면 다른 주는 엄격한 금지 정책을 유지하고 있다. 이러한 규제 변화는 도박 중독 문제를 관리하고 소비자 보호를 강화하기 위한 시도로 볼 수 있으나, 불균등한 법률 적용은 지역 간 중독 위험과 사회적 불평등을 심화시킬 수 있다. 온라인 플랫폼 중심의 도박 산업 확대는 접근성을 높여 중독 문제를 구조적으로 악화시키는 한편, 플랫폼 자본주의 체제 내에서 이윤 추구와 중독 위험 간의 긴장 관계를 드러낸다. 따라서 중독사회 관점에서는 법적 규제의 일관성과 사회적 안전망 강화가 필수적이며, 중독 예방과 치료를 위한 통합적 정책 마련이 요구된다.
-
-=== 기사7
-제목: What Austria’s iGaming Shift Could Mean for Global Gambling Regulations - miningjournal.net
+제목: Brazil introduces bill to combat gambling addiction - iGamingToday.com
 카테고리: 도박정책
 날짜: 2025-11-19
-국가: 국제
-출처: miningjournal.net
-링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1gtSW14TWU4OTI1dl9SREZNN1lwMVhBWVpCRENSS2ViSW0tbGlHNFVBWXAweUZPOHZzQk1hUlNLYXp6TVZ4YkFWdkV3b3RhZzdPTGZ0dkNXTHVqSV9uay1MajdnOFI0a0g4cTdFcE5ad2hBRm5yTlBKZmVKd05EMnF5bWUzLTB0YWRST24xTmduc2diUUhXVzdLeG9KV2VDZDNJZXczcnJpN24xeDNYd200TVU?oc=5
-요약:
-오스트리아의 iGaming(인터넷 도박) 규제 전환은 글로벌 도박 규제 환경에 중요한 변화를 시사한다. 이 변화는 온라인 도박 산업의 확장과 함께 중독 위험 증가를 내포하며, 규제 완화가 도박 중독 문제를 심화시킬 수 있다는 우려가 제기된다. 특히 디지털 플랫폼 자본주의 구조 속에서 도박 서비스가 더욱 접근성 높게 제공되면서 사회적 불평등과 중독 취약계층의 피해가 확대될 가능성이 크다. 이에 따라 정책적 대응과 예방 체계 강화가 필요하며, 중독사회 관점에서 구조적 위험을 줄이기 위한 국제적 협력과 규제 조정이 요구된다.
+국가: 미국
+출처: iGamingToday.com
+링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjJ2WVNQN0tZRUlsQjhxTDVGb1VWRkI5Y3B3V1REbXJOd2JlYmN1ejV4cW1MWjBuYzkwNVpKOExiSUtycW9MYzJGSF9YbTJabWlCSjZ6VktGTnJTc2ZSMDdFZEdJNHFNNTRNYUdDdjJEMWdXNy1NTDBFSEZsd2dCV3lxTlpsU3Vw?oc=5
+요약: 브라질에서 도박 중독을 예방하고 치료하기 위한 법안이 도입되었다. 이 법안은 도박 중독의 위험성을 인식하고, 이를 해결하기 위한 다양한 프로그램과 지원을 포함하고 있다. 또한, 정부는 도박 중독에 대한 교육과 인식 제고를 통해 사회 전반의 문제 해결을 목표로 하고 있다. 
+
+이러한 정책은 도박 중독 문제를 단순한 개인의 문제가 아닌 사회적 문제로 인식하고, 구조적 접근을 통해 해결하려는 노력을 반영한다.
+
+=== 기사2
+제목: Chinese gamblers, cartel cash: The secret pipeline through Las Vegas’ biggest casino - CNN
+카테고리: 도박정책
+날짜: 2025-11-18
+국가: 미국
+출처: CNN
+링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxNcGFQU2laUXA1Q0E5b01nT05EdkxNTVZGYWJGaE1ZYXY1cDd1MzFWeWRRYi15NG05T0lOeWlWazQ5cjFyd3VVT1RtNS0yNndsWl9tTUh2YXBQRHZNdF9OUVkwODI5TDBwOGc4R1daRVFxXzdwdDRkbHY0RnZyOWREcDNWNEJQcV9SNGRGdnJMZUc?oc=5
+요약: 중국의 도박꾼들과 범죄 카르텔의 자금이 라스베이거스의 최대 카지노를 통해 비밀리에 유입되고 있다는 내용의 기사이다. 이 카지노는 중국의 고액 도박객들을 대상으로 한 자금 세탁의 중심지로 기능하고 있으며, 범죄 조직과의 연계가 심각한 문제로 지적되고 있다. 이러한 상황은 카지노 산업의 규제와 감시 체계의 허점을 드러내고 있다. 
+
+정책적 관점에서, 카지노 운영에 대한 보다 엄격한 규제와 투명한 자금 흐름 감시가 필요하다는 함의를 제시한다.
+
+=== 기사3
+제목: Online Casino and Sports Betting Laws in New York 2025 - Deadspin
+카테고리: 도박정책
+날짜: 2025-11-17
+국가: 미국
+출처: Deadspin
+링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WaEVqVDJSc2dWTWRSb04yNjVqU2R2X2lZbzlYOFJJRHZKNzB4Z3ZzWE1nWFRreDVaRmpQWHAxSFB4WmFiUmp1eFMyY0g4Nkk?oc=5
+요약: 2025년 뉴욕에서의 온라인 카지노 및 스포츠 베팅 법률에 대한 기사는 주 정부의 규제 변화와 관련된 내용을 다루고 있다. 이 법률은 도박 산업의 성장과 함께 소비자 보호 및 중독 예방을 위한 조치를 포함하고 있다. 또한, 뉴욕의 도박 시장이 경제에 미치는 긍정적인 영향과 함께 사회적 문제를 해결하기 위한 노력이 필요하다는 점을 강조하고 있다. 
+
+정책적 관점에서, 이러한 법률은 도박 중독 문제를 해결하기 위한 체계적인 접근이 필요함을 시사한다.
+
+=== 기사4
+제목: Top 7 Fast Payout Casinos UK 2025: Get Your Winnings Quick! ⚡ - nicsell
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: nicsell
+링크: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VbjNpNjRUdEJmZy1TZ0RzMzl3a3JKSlZPdjRkRzJ2YXZyV0xVbFJVNExSQUJFc2R1Wm52MlQ5VnRDODFTM2JXZloxX3VoR2U3TzRNaGlOQ3ozc1I0ZG5BQTFWblpJcDA?oc=5
+요약: 영국의 2025년 빠른 지급을 자랑하는 카지노 7곳에 대한 기사가 소개되었다. 이 카지노들은 사용자에게 신속하게 상금을 지급하는 시스템을 갖추고 있어, 도박 이용자들에게 매력적인 선택지가 되고 있다. 이러한 경향은 도박 산업의 경쟁을 촉진하며, 이용자 경험을 개선하는 데 기여하고 있다. 
+
+정책적 관점에서 볼 때, 빠른 지급 시스템은 도박 중독의 위험성을 증가시킬 수 있으므로, 이에 대한 규제와 예방책이 필요하다.
+
+=== 기사5
+제목: Norris, Piastri disqualified from Las Vegas GP - ESPN
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: ESPN
+링크: https://news.google.com/rss/articles/CBMitgFBVV95cUxOdkV6SHUwRzQxNUNic1cwT0tKekZZcnpwQnJ6NkM0N29BeXFHV3lzY2pxMzI5TFBLWnpYaV9DazNrWFdnLW83b2JtUXdycEtlR18zMWxmWFVOMDZtOUFTbzBNaE1jdldESGlqMDFSZ2hnWlI3bFdnOXRLUUo0ZVZTbTM5LVZOT2hUSm45SnRDYWswTk9OZ1hHVklIRlVCbEJnR3g2QlQ3cWVnaE9BYmFGUmtNQUFtUQ?oc=5
+요약: 1) 노리스와 피아스트리가 라스베가스 그랑프리에서 실격 처리되었다. 이들은 경기 중 규정을 위반한 것으로 판단되었으며, 이에 따라 결과가 변경되었다. 이번 사건은 경주 차량의 기술적 규정 준수의 중요성을 다시 한번 부각시켰다.
+
+2) 이러한 사건은 스포츠에서의 공정성과 규제 준수의 필요성을 강조하며, 중독 문제와 관련된 정책적 접근이 필요함을 시사한다.
+
+=== 기사6
+제목: Transfer rumors, news: Arsenal lead Premier League trio in Yildiz chase - ESPN
+카테고리: 도박정책
+날짜: 2025-11-23
+국가: 영국
+출처: ESPN
+링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnVVRFJCSmtsY2lMLWgzSUp0OTl5TmMtdGV2cWpmNjVlNVhwZ2RGRGQxekdleDZFaFVGang0RWZjYjZYZVRZMVBhTF9KTXdxUExyMnQ2Q1ZTWVJib1pIOHVHekd0VC1Pb29waXk3dnZETFRBc1FtSS1xaEp6bXdNN0NYM3pDd2RQNEFxVFBEb1FfSGM3NWJnQVp3ZmM2RzFOOVFJc0VMUlZ5a0luYzFZbWs3Z2I5ZXRObVE?oc=5
+요약: 1) 아스널이 프리미어리그의 세 팀과 경쟁하며 유일한 유망주인 일디즈 영입을 선도하고 있다는 소식이 전해졌다. 이 선수는 현재 여러 클럽의 관심을 받고 있으며, 아스널은 그를 영입하기 위해 적극적인 움직임을 보이고 있다. 이러한 이적 소식은 아스널의 팀 강화 전략과 관련이 깊다.
+
+2) 이러한 스포츠 이적 시장의 경쟁은 중독 문제와 관련된 사회적 요인, 특히 청소년의 도박 및 게임 중독에 대한 경각심을 높이는 계기가 될 수 있다.
+
+=== 기사7
+제목: Europe’s black market problem is getting worse, not better - sigma.world
+카테고리: 시사
+날짜: 2025-11-20
+국가: 유럽
+출처: sigma.world
+링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVlXMzdtcEhGRmZRNi1mTzJoNlFJY2R5VkFVSGhfZXl4QmdOYU5XQ3lxYTZBemlLWVRCRTBub09MaTJmUXc2clRvdTJIQ1I2WE9NR3hOVkJEUmZiMXA3YnROaFVPMGxyUlV4RFhJUUl2LU1hT3lCWUdLS1l2cVZQUzN3ZGJJQUh1LVkzQXJQMmZvTjRJZUstQ1FJNUtDcDNpclVGaw?oc=5
+요약: 유럽의 불법 도박 시장 문제가 더욱 심각해지고 있다는 내용의 기사에서는, 규제 강화에도 불구하고 불법 활동이 증가하고 있음을 지적하고 있습니다. 특히, 온라인 도박의 확산과 함께 범죄 조직의 개입이 늘어나고 있으며, 이는 공공 안전과 세수에 부정적인 영향을 미치고 있습니다. 이러한 상황은 정부의 정책적 대응이 효과적이지 않음을 시사합니다. 
+
+정책적 관점에서, 불법 도박 문제 해결을 위해서는 보다 포괄적이고 통합적인 접근이 필요하며, 사회적 인식 개선과 함께 합법적인 시장의 활성화가 중요합니다.
 
 === 기사8
-제목: When Your Husband Spends $300,000 on DraftKings - The Cut
-카테고리: 도박정책
-날짜: 2025-11-11
-국가: 국제
-출처: The Cut
-링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ0NHTXFHdHpCTnpseEs4UzBXYmhZOHhFcG9NZUZKLWRHelRfb0ZuZWh4aXliZnhiQzdtckJnYjJ1U3lUSXhBZUYwTnFaOWZ6MmpKNnoxaFd2b1VuYWlabDNYRXFlZFVLN05SOTBpczRQbUdtbm1Xd3NKRThwZW5fX2labERvenZfMi0wT1lySHpfUzZCV0lWczRB?oc=5
-요약:
-이 기사는 도박 중독, 특히 온라인 판타지 스포츠 플랫폼인 DraftKings에서 발생한 대규모 금전 손실 사례를 다룬다. 한 남성이 30만 달러 이상을 지출하며 도박 중독의 심각성을 보여주고, 현행 규제의 한계와 플랫폼 자본주의가 도박 중독을 심화시키는 구조적 문제를 지적한다. 온라인 도박 플랫폼은 접근성과 편리성을 무기로 이용자를 끌어들이고, 이에 따른 개인·가족의 경제적·정신적 피해가 커지고 있다. 중독사회 관점에서 이는 디지털 환경에서 중독 위험이 확산되는 사회구조적 불평등과 규제 미비 문제를 드러내며, 보다 강력한 정책 개입과 예방 체계 구축이 필요함을 시사한다.
+제목: The NBA and MLB Investigate Gambling Corruption While Taking Money from the Gambling Industry - Focus on the Family
+카테고리: 시사
+날짜: 2025-11-21
+국가: 기타
+출처: Focus on the Family
+링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxNU2ZMZW9hMmdaT1FUeWdyWGVsTHU2bGJkYVZ0aWx5WG9FX0JSd21rZldGOFpCRFd1OHJYZ3ZoeFRoMjI5clZfdzZyUElQV3lJdS1PclR0WHlWdkdaTzZRN0ZSTjVielhFaWlSYzFpR2NOS3YwVzdaV0RJOEdES3B6NlpZaENmbElzOU9Xbnc4a3RULW9EV2hPRUs1eV9fS25ERXp6d0stSG1jRnJiWHdOaQ?oc=5
+요약: NBA와 MLB는 도박 산업으로부터 자금을 받으면서 동시에 도박 부패에 대한 조사를 진행하고 있다. 이러한 이중적인 접근은 스포츠 리그가 도박 산업과의 관계를 어떻게 관리하고 있는지를 보여준다. 이들은 도박의 부정적 영향을 인식하고 있지만, 경제적 이익을 추구하는 경향이 강하다. 따라서, 이러한 상황은 스포츠와 도박 산업 간의 윤리적 경계가 모호해지고 있음을 시사한다. 정책적으로는 스포츠 리그의 도박 관련 수익을 투명하게 관리하고, 중독 예방을 위한 대책을 강화할 필요성이 있다.
 
 === 기사9
-제목: The government shutdown, wealth inequality, nuclear weapons, and sports betting: October 31 - November 3, 2025 Economist/YouGov Poll - YouGov
+제목: Online Gambling Habit Puts Credit Card Lenders On Edge - Finimize
 카테고리: 시사
-날짜: 2025-11-04
-국가: 국제
-출처: YouGov
-링크: https://news.google.com/rss/articles/CBMihAJBVV95cUxNRlZxbFA3MnVJZHZzUkxUQmtaODlxaGRicWZ5djNaT1pJcTd1X0M1ZlQxeERyN0o2anIweEd1N0JoOVVUeXRIcW1jUEdrN24xcFMxZ241S0ttQVBGQ09tcEFrbmFKSkRsVjFpcTFhNFgzNlJqdl8yZ1FIUnlvOUlKQk1KRThacXBtZDNTaF9rYTg0bXNFX3V6T3JFbFpWdkg0dWEzNEREb2VZejBNUW1ZZnFCZTJjNmM0WTY0TVpwWHYzMmpGaDFlSzlVNWFtMHpHa2pDU2IzaU1rSGdMT1pMSWRNYkxfV3pVSjRURFUyOUpUWmZuaGJsWDBjU054RDF2RjNxZg?oc=5
-요약:
-이번 조사에서는 스포츠 도박을 포함한 도박 중독이 주요 사회 이슈로 부각되었으며, 특히 정부의 규제 정책과 경제적 불평등이 도박 중독 확산에 영향을 미치는 구조적 요인으로 지적되었다. 도박 산업의 성장과 함께 플랫폼 자본주의가 강화되면서, 취약 계층이 도박 중독에 더 쉽게 노출되는 불평등 문제가 심화되고 있다. 또한, 정부 셧다운과 같은 정치적 불안정이 사회 안전망 약화로 이어져 중독 문제 대응에 어려움을 가중시키는 점도 드러났다. 이러한 상황은 중독사회를 심화시키는 구조적 위험으로, 정책적 개입과 사회적 지원 체계 강화가 시급함을 시사한다.
+날짜: 2025-11-21
+국가: 기타
+출처: Finimize
+링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ0VTWUw0eVFGZlF0dUk5X3J3YlRrbzFqY3k3ZFVNZUpXcy03TDhOSFFiOGNlRWdlQnY1a1NYaVhDaDdYUXV4U1h5Y1lodjZid1NsX2Z6R1hlR0JZLTFvYWxJc3pZUHVDMTFueVlIQ0VHaFlOTDdBUGhsaWMzcGhleGlQMUdueDlsaFlR?oc=5
+요약: 온라인 도박 습관이 신용카드 대출업체들에게 우려를 불러일으키고 있다는 내용의 기사이다. 많은 소비자들이 도박에 빠지면서 신용카드 부채가 증가하고 있으며, 이는 금융기관의 리스크를 높이고 있다. 이러한 상황은 도박 중독 문제를 해결하기 위한 정책적 접근이 필요함을 시사한다. 따라서, 금융기관과 정부는 도박 중독 예방 및 치료를 위한 통합적인 정책을 마련해야 할 필요성이 있다.
 
 === 기사10
-제목: GambleAware report exposes UK gambling advertising inequality - sigma.world
+제목: How Betting Ruins Sports - Enloe Eagle's Eye
 카테고리: 시사
-날짜: 2025-11-04
-국가: 국제
-출처: sigma.world
-링크: https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkM2NEFycWZ5QVlqN3JvUUxuZ0dFcUFlWUR0T093VG05WEthcVM4UldRTVo4b1FUZjVJSFc5SktDVFBfZTZxendjbzFFaERlWTRJRDZKckY2UVBNSW1XUkRSc2FsQnpFeXlzR2lPZkF1OGUtT05aNlZ0bGxHQVM3Z09MODAyRTBIRTVwUjl0YVI?oc=5
-요약:
-이번 보고서는 영국 도박 광고에서 나타나는 불평등 문제를 다루며, 특히 저소득층과 취약계층을 대상으로 한 과도한 광고 노출을 지적한다. 도박 중독의 위험성이 높은 사회적 약자들이 광고의 주요 타깃이 되면서 중독 위험이 구조적으로 심화되고 있음을 보여준다. 현재 영국 내 도박 규제 정책은 광고 제한을 강화하는 방향으로 변화하고 있으나, 플랫폼 자본주의 체제 하에서 도박 산업의 이윤 추구와 사회적 책임 간의 충돌이 여전하다. 이러한 불평등한 광고 관행은 중독사회에서 사회적 불평등과 건강 격차를 확대하는 구조적 위험 요소로 작용한다는 점에서 중요한 시사점을 제공한다.
+날짜: 2025-11-21
+국가: 기타
+출처: Enloe Eagle's Eye
+링크: https://news.google.com/rss/articles/CBMia0FVX3lxTE12c2RVdnkzTFlIMGNKT3pGX2hCbkNyR2tqMHVwazFfZE84UnJzbTRsSC00aGtUQ2RQSW9vUWRSclhZbExRTWZ3MjloNi1pM1Z0V2ZjSGdxMm9CVXVibzU5NWNMWlR0R05KSGdj?oc=5
+요약: 이 기사는 도박이 스포츠에 미치는 부정적인 영향을 다루고 있다. 도박은 선수와 팬의 행동을 왜곡시키고, 경기의 공정성을 해치며, 스포츠의 본질적인 가치를 훼손할 수 있다. 또한, 도박 중독이 증가함에 따라 사회적 비용이 커지고, 이는 스포츠 산업 전반에 부정적인 영향을 미친다. 
+
+따라서, 정책적 차원에서 도박 규제와 예방 프로그램의 강화가 필요하며, 스포츠의 건전성을 유지하기 위한 사회적 노력이 요구된다.
 
 === 기사11
-제목: Video Game Addiction Lawsuit Settlement Amounts (2025) - Sokolove Law
-카테고리: 게임·디지털
-날짜: 2025-11-01
-국가: 국제
-출처: Sokolove Law
-링크: https://news.google.com/rss/articles/CBMic0FVX3lxTFBFdWQ0amF0VzNnckhvMndfTGpGQkVoTkJ5a05YdHJWQTdhSEd6RUJhbG9RdlVxU1ZzanZqeVFkeDU5VmFCQUUtazh0Q19LYWxvYmprWkxLRHlfWWtraVNJa0EyTC1MVHdzcHdFcFBzbEVFNEE?oc=5
-요약:
-이 기사는 비디오 게임 중독과 관련된 소송 합의금 현황을 다루고 있으며, 게임 중독이 법적 분쟁의 주요 이슈로 부상하고 있음을 보여준다. 특히, 게임 내 과도한 결제 유도와 중독성 설계가 문제로 지적되며, 이에 따른 피해자 보상과 규제 강화 요구가 증가하고 있다. 이러한 움직임은 디지털 중독이 단순 개인 문제를 넘어 사회적·구조적 문제임을 시사하며, 플랫폼 자본주의 하에서 기업의 수익 극대화 전략이 중독 위험을 심화시키는 구조적 요인임을 드러낸다. 따라서 정책적으로는 게임 산업에 대한 엄격한 규제와 중독 예방을 위한 사회적 안전망 구축이 필요하다는 점이 강조된다.
+제목: NZ to regulate offshore gambling sites that hook young Kiwis - The Press
+카테고리: 시사
+날짜: 2025-11-21
+국가: 기타
+출처: The Press
+링크: https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ3RYS1ljRnRzR09ZZ3ZWRmsxOTdCZjFZRWxXSnpDSHpydkdVU3NYeURpMzh1X1IzbDZjVkg2VDhuR04wb2otSDNfSE5DZV95U0ZtQ0V1ZGJ0UTAwMW0xLVl6NjQwZTlkZV80SlE0OTdZbDhnRG1Vdk1ZZHIyQ19CUG5FZzdncXpsWU5QY1VubFZCa09ybEtBLThFODFHbkdNQXgzcTVsb2hLSnQzRjBCaS1WTVRmVURXbnc?oc=5
+요약: 뉴질랜드 정부는 젊은이들을 유혹하는 해외 도박 사이트에 대한 규제를 강화할 계획이다. 이러한 조치는 청소년의 도박 중독을 예방하고, 안전한 도박 환경을 조성하기 위한 노력의 일환으로 이루어진다. 정부는 특히 온라인 도박의 증가로 인한 사회적 문제를 심각하게 인식하고 있으며, 이에 대한 법적 대응을 모색하고 있다. 
+
+이러한 정책은 청소년 보호와 공공의 건강을 우선시하는 사회적 책임을 강조하며, 도박 산업의 규제를 통해 보다 건강한 사회 구조를 구축하려는 의지를 반영한다.
 
 === 기사12
-제목: Clemson University’s Alcohol and Drug Use Policy outlined for students - Clemson News
-카테고리: 알코올·약물
-날짜: 2025-09-23
-국가: 국제
-출처: Clemson News
-링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNREJfOW1TVEVOZTBEX0dmc09neG8yV1V3WndCNGV3a21qNDZFMEdZdWlUdXZ0QmRPb2p6b3ZvVi1YakExQXNaUG1iVFFucEhEaE0zNy1xZTNoZUhwcUl6c3NJellaRUxIa25zZjlVdl9XVGZhNTAza3BnWFQwYVREb2daTEVKSGhYZXd2QnprUkhlMUR4M05ibldtUQ?oc=5
-요약:
-클렘슨 대학교는 학생들의 알코올 및 약물 사용에 관한 정책을 명확히 제시하며, 캠퍼스 내 음주와 약물 남용을 엄격히 규제하고 있습니다. 이 정책은 청년층의 알코올 및 약물 중독 문제를 예방하고, 안전한 학습 환경 조성을 목표로 하며, 위반 시 징계 조치를 포함합니다. 중독사회 관점에서 볼 때, 대학 내 이러한 규제는 청년 세대의 중독 위험을 줄이려는 구조적 노력이나, 동시에 청년층의 스트레스와 사회적 불평등이 중독 문제를 심화시킬 수 있는 복합적 환경을 반영합니다. 또한, 디지털 및 도박 중독과 달리 전통적 알코올·약물 중독에 대한 제도적 대응이 중심이 되어, 플랫폼 자본주의 시대의 새로운 중독 유형에 대한 정책적 관심 확대가 필요함을 시사합니다.
-
-=== 기사13
-제목: Video game addiction in teens likely stems from preexisting mental health issues - University of California
-카테고리: 게임·디지털
-날짜: 2025-09-04
-국가: 국제
-출처: University of California
-링크: https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk5DTmphaldBTzNTQW4wU2IyMkpvUGxaSkZQMThGRHA5MnNaRHgxckQyc3BOU0tJYk01aE9lQkV1Vkd0TERvRXQwR1ozMTc2TjVYdFIydTJaYW54NTFjRlFaeG0yUnlxT2E4dk5GaDZfTkxSRUtTcXhfeEJNT0JDNXBHc0J5R2E3NE1XdEItSWYtRENzSnQxM3NEY0ktaE45UmI4V0xoYXNUOFFBenl6VXNPTFhfOFk?oc=5
-요약:
-이 기사는 청소년의 비디오 게임 중독이 주로 기존의 정신 건강 문제에서 비롯된다는 점을 다루고 있다. 즉, 게임 중독 자체가 독립적인 문제라기보다 우울증, 불안 등 정신 질환과 연관되어 나타난다는 것이다. 이러한 발견은 중독 문제를 단순한 개인의 의지 부족이나 게임 자체의 문제로만 보지 않고, 정신 건강과 사회적 지원 체계의 통합적 접근이 필요함을 시사한다. 중독사회 관점에서 이는 디지털 플랫폼 자본주의가 청소년의 취약한 정신 상태를 악용할 위험이 있으며, 구조적 불평등과 정신 건강 서비스 접근성 문제를 심화시킬 수 있다는 점에서 중요한 의미를 가진다. 따라서 정책적으로는 정신 건강 지원 강화와 함께 게임 이용 규제 및 예방 프로그램의 다각적 운영이 요구된다.
-
-=== 기사14
-제목: 9% of young US employees use alcohol, drugs at work, study finds - Ohio State News
-카테고리: 알코올·약물
-날짜: 2025-07-08
-국가: 국제
-출처: Ohio State News
-링크: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGZQbXVRSVlrc0RIYy04YV9WczRnMkpWYzU4QWVwMkZYOEpRWVV1RHloTEZPeEhic1FVT2Fnd3lKR1NjVjlQN0dxWmp1MEpfb3BFZjNYWUw0MDNVMlR6NVBaeVN0clMxanVtTWhVaGxSbktab0xEa1VhZ2hYNjFacENTVERpRVhkZ3JZ?oc=5
-요약:
-미국 청년 근로자의 약 9%가 직장 내에서 알코올이나 약물을 사용하는 것으로 나타났다는 연구 결과가 발표되었다. 이 연구는 도박이나 디지털 중독은 아니지만, 알코올·약물 중독이 노동 환경에서 여전히 심각한 문제임을 보여준다. 특히 청년층에서의 중독 문제는 직장 내 생산성 저하와 안전 문제로 이어질 수 있어 정책적 개입이 필요하다. 중독사회 관점에서 보면, 노동시장 내 불안정성과 스트레스가 중독 행동을 촉진하는 구조적 위험 요소로 작용하며, 이를 방지하기 위한 규제와 지원 체계 강화가 요구된다. 또한, 플랫폼 자본주의 하에서 노동자의 정신건강과 중독 문제는 사회적 불평등과도 밀접하게 연결되어 있어 종합적 접근이 필요하다.
-
-=== 기사15
-제목: Gambling - World Health Organization (WHO)
+제목: Argentina: General Pico approves program to prevent youth online betting - Gaming America
 카테고리: 시사
-날짜: 2024-12-02
-국가: 국제
-출처: World Health Organization (WHO)
-링크: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aenNQcDAzckpsV0NTTW45MERhVmQ5UGlYUTZsMkVkSl9KbmVXeVM2MElsU0QzYW0yQ2x2VVFHRHdnY1FBNHcySDNPR0FFT3lSeUx2X3VLTXFzeXMzdlN6YmVmQUJ0YTFy?oc=5
-요약:
-세계보건기구(WHO)는 도박 중독을 심각한 공중보건 문제로 규정하며, 도박 중독이 개인의 정신건강뿐 아니라 사회경제적 불평등을 심화시키는 구조적 위험임을 강조하고 있다. 도박 중독은 특히 취약계층에서 더 큰 피해를 초래하며, 플랫폼 자본주의 하에서 온라인 도박의 접근성이 높아지면서 중독 위험이 증가하고 있다. WHO는 도박 중독 예방과 치료를 위한 국가 차원의 규제 강화와 공공정책 마련을 촉구하며, 도박 산업의 광고 및 접근 제한, 중독자 지원 시스템 확충을 권고하고 있다. 이러한 정책 변화는 중독사회에서 도박이 개인 문제를 넘어 사회 구조적 문제임을 인식하고, 불평등 해소와 공공 건강 증진을 위한 필수적 조치로 평가된다.
+날짜: 2025-11-21
+국가: 기타
+출처: Gaming America
+링크: https://news.google.com/rss/articles/CBMirAFBVV95cUxNT2E0R3NsM2Z3WE5qNGRiT2VNU21LOUJCWkVYZ2dRWFBCT1JiLWgtN3lHbHU0bjRBaHBiMHpnRWhubGc1cjhHenN3VWowRTM4TENRYm1fWHV2UzgyTml2WGQzaEZrei1ZY0h6cnlETmJxaFAtX0dBMExxcGVkdUhOUnlGcng5MmNXbGxOaVB1X3BRNG1FMDJidklEd1Y0SHlhTHJBcGJtaGVyMTNu?oc=5
+요약: 아르헨티나의 제너럴 피코 시가 청소년의 온라인 도박 예방을 위한 프로그램을 승인하였다. 이 프로그램은 청소년들이 온라인 베팅에 노출되는 것을 줄이고, 건강한 여가 활동을 장려하는 데 초점을 맞추고 있다. 해당 정책은 청소년의 중독 문제를 예방하고, 지역 사회의 안전을 강화하는 데 기여할 것으로 기대된다. 
+
+이와 같은 정책은 청소년 보호를 위한 사회적 책임을 강조하며, 중독 예방을 위한 구조적 접근이 필요함을 시사한다.

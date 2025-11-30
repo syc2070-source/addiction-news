@@ -1,20 +1,192 @@
 [
   {
-    "title": "영국, 온라인 도박 광고 규제 강화 논의",
-    "category": "도박정책",
-    "source": "UK Government White Paper (예시)",
-    "url": "https://example.com/original-article",
-    "date": "2025-11-15",
-    "summary_ko": "영국 정부는 청소년과 취약계층 보호를 위해 TV·온라인에서 노출되는 도박 광고의 시간대·빈도·표현 수위를 제한하는 방안을 검토 중이다.",
-    "country": "영국"
+    "id": 1,
+    "category": "알코올·약물중독",
+    "title": "“여보, 퇴근하고 한 잔 마실까?”… 대답 따라 결혼 만족도 나뉘어 - 헬스조선",
+    "summary": "이 기사는 퇴근 후 음주 제안에 대한 배우자의 대답이 결혼 만족도에 미치는 영향을 다루고 있다. 연구에 따르면, 음주를 긍정적으로 받아들이는 배우자는 결혼 생활에 대한 만족도가 높고, 반대로 음주를 부정적으로 인식하는 경우 만족도가 낮아지는 경향이 있다. 이러한 결과는 음주 문화가 개인의 관계에 미치는 영향을 시사한다. \n\n알코올 중독 예방 및 치료를 위한 정책은 개인의 결혼 생활과 사회적 관계에 긍정적인 영향을 미칠 수 있으며, 건강한 음주 문화를 조성하는 것이 중요하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE51LWVRY0JrVDRVeTNyZGQwZFI4cVVHNUwzekVJV2RKOEMzcGlMbldsOURtNFB0d19ZRnN3SFN2TENUWS11bmJRM0YxbDB6aGNFSEo1bW5laTFubk10UlJhVkUzajRZVDJvc0xVeWtMT2",
+    "date": "2025-11-29",
+    "source": "헬스조선",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51LWVRY0JrVDRVeTNyZGQwZFI4cVVHNUwzekVJV2RKOEMzcGlMbldsOURtNFB0d19ZRnN3SFN2TENUWS11bmJRM0YxbDB6aGNFSEo1bW5laTFubk10UlJhVkUzajRZVDJvc0xVeWtMT2VmUDBIemc?oc=5"
   },
   {
-    "title": "호주, 스포츠 베팅 광고 야간 시간대 제한 추진",
-    "category": "도박정책",
-    "source": "Australian Government (예시)",
-    "url": "https://example.com/article2",
-    "date": "2025-11-14",
-    "summary_ko": "호주 연방정부는 스포츠 중계 시간대에 노출되는 베팅 광고가 청소년에게 미치는 영향을 문제 삼아, 밤 8시 이전 스포츠 베팅 광고를 금지하는 방안을 검토하고 있다.",
-    "country": "호주"
+    "id": 2,
+    "category": "알코올·약물중독",
+    "title": "내년 9월부터 술병에 음주운전 경고 표시 - MBN 홈페이지",
+    "summary": "내년 9월부터 술병에 음주운전 경고 표시가 부착될 예정이다. 이 조치는 음주운전으로 인한 사고를 예방하고, 음주에 대한 경각심을 높이기 위한 목적을 가지고 있다. 경고 표시는 소비자에게 음주와 관련된 위험성을 명확히 전달함으로써, 음주 문화 개선에 기여할 것으로 기대된다. \n\n이러한 정책은 알코올 중독 예방 및 사회적 안전망 구축에 중요한 역할을 할 수 있으며, 음주에 대한 사회적 인식을 변화시키는 계기가 될 것이다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTDdQZGhaQkhtV2c1dlEzYS1XbWJINm5Ba3VJdkZiTS1pdlExUzNOanFNVHlyS0R4VXVLUDNfMHhNMXBCMFRwQTBTT2ptVGhMQmRoVmFTQnVmS0NuSUlmZkZaRWhjZGNJbFZvODJOZz",
+    "date": "2025-11-29",
+    "source": "MBN 홈페이지",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTDdQZGhaQkhtV2c1dlEzYS1XbWJINm5Ba3VJdkZiTS1pdlExUzNOanFNVHlyS0R4VXVLUDNfMHhNMXBCMFRwQTBTT2ptVGhMQmRoVmFTQnVmS0NuSUlmZkZaRWhjZGNJbFZvODJOZzFKRFp5TElTQzNyYjhtM3RYZnE2Y3NXc005d3Br0gFMQVVfeXFMTTJ0c2EweHVGbVBIOXRxeFUzcDhEU2hZbUZQdzU3X294dHBpdzJGcTVfSUVtZmJ2ZVV1Q1JUbWZMSWl0aDVRNy1pS011Uw?oc=5"
+  },
+  {
+    "id": 3,
+    "category": "알코올·약물중독",
+    "title": "내년부터 소주·맥주 라벨에 ‘음주운전 경고’ 추가된다 - 한겨레",
+    "summary": "내년부터 소주와 맥주 라벨에 음주운전 경고 문구가 추가된다. 이는 음주운전으로 인한 사고를 예방하고, 음주에 대한 경각심을 높이기 위한 정책의 일환이다. 이러한 조치는 소비자에게 음주와 관련된 위험성을 명확히 전달함으로써, 알코올 중독 문제 해결에 기여할 것으로 기대된다. 따라서, 음주문화 개선을 위한 사회적 노력이 더욱 필요하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9kU1hWeUhiMGJJakRNQnA1TTVCNzJqXzVZQWJpTVZCdEJqLUV1bUdQZEVBbTlZVS1Gb3NwM3hRWFFMNENZWTNydHFsdk9NMmRDRi03WG5DSlltaGxqV0xab3lsX1hUQUhfTVFkWnAtNU",
+    "date": "2025-11-29",
+    "source": "한겨레",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kU1hWeUhiMGJJakRNQnA1TTVCNzJqXzVZQWJpTVZCdEJqLUV1bUdQZEVBbTlZVS1Gb3NwM3hRWFFMNENZWTNydHFsdk9NMmRDRi03WG5DSlltaGxqV0xab3lsX1hUQUhfTVFkWnAtNU1wdw?oc=5"
+  },
+  {
+    "id": 4,
+    "category": "알코올·약물중독",
+    "title": "\"음주운전 줄어들까\"…술병에 아예 음주운전 경고 붙인다 - 네이트",
+    "summary": "술병에 음주운전 경고 문구를 부착하는 새로운 정책이 도입된다. 이 조치는 음주운전 사고를 줄이기 위한 예방적 접근으로, 소비자에게 음주운전의 위험성을 상기시키는 목적을 가지고 있다. 정부는 이러한 경고 문구가 음주운전 감소에 긍정적인 영향을 미칠 것으로 기대하고 있다. \n\n이러한 정책은 알코올 중독 예방 및 사회적 책임을 강조하는 방향으로, 음주 문화 개선에 기여할 수 있는 중요한 사회적 시도로 평가된다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TWUN4RDRHMHBNSTlON0ltZDZBbC1GQzE1X0RPeENMMU5FVGVzX3JpUjN2Q0JFaGdQczN0SFJjUVRXRzY5TFZ0VnZTS19ULWdIejh3?oc=5\" target=\"_blank\">\"음주운전 줄어들까\"…술병에",
+    "date": "2025-11-29",
+    "source": "네이트",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TWUN4RDRHMHBNSTlON0ltZDZBbC1GQzE1X0RPeENMMU5FVGVzX3JpUjN2Q0JFaGdQczN0SFJjUVRXRzY5TFZ0VnZTS19ULWdIejh3?oc=5"
+  },
+  {
+    "id": 5,
+    "category": "알코올·약물중독",
+    "title": "봉화군보건소, 가상 음주체험부터 금연 교육까지 체험형 건강 캠페인 실시 - 메트로신문",
+    "summary": "봉화군보건소는 가상 음주체험과 금연 교육을 포함한 체험형 건강 캠페인을 실시하였다. 이 캠페인은 지역 주민들에게 건강한 생활습관을 촉진하고, 알코올 및 약물 중독 예방을 위한 인식을 제고하는 데 목적이 있다. 다양한 체험 프로그램을 통해 참여자들은 중독의 위험성을 직접 체감하고, 건강한 선택을 할 수 있는 기회를 제공받는다. \n\n이와 같은 지역 사회 기반의 건강 캠페인은 알코올 및 약물 중독 문제 해결을 위한 효과적인 예방 전략으로, 정책적으로 지속적인 지원과 관심이 필요하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMDdpUUk0cXA2YnhIeDY5NzFYVzI0OUN3TThya3FFejVZLUJiQUJJV0xoODV5bUdYTDVGTVlEY3VnZ1BrNl9qMnJGVmtKb2E4ZjZBc21hS1poWFh4SE93?oc=5\" target=\"_blank\"",
+    "date": "2025-11-29",
+    "source": "메트로신문",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMDdpUUk0cXA2YnhIeDY5NzFYVzI0OUN3TThya3FFejVZLUJiQUJJV0xoODV5bUdYTDVGTVlEY3VnZ1BrNl9qMnJGVmtKb2E4ZjZBc21hS1poWFh4SE93?oc=5"
+  },
+  {
+    "id": 6,
+    "category": "알코올·약물중독",
+    "title": "Mismatched alcohol consumption might be a warning sign for marital stability - PsyPost",
+    "summary": "알코올 소비의 불일치가 부부의 안정성에 대한 경고 신호일 수 있다는 연구 결과가 발표되었다. 이 연구는 부부 간의 음주 습관 차이가 갈등을 유발하고, 결과적으로 결혼 생활에 부정적인 영향을 미칠 수 있음을 시사한다. 따라서, 부부의 음주 패턴을 이해하고 조정하는 것이 결혼 생활의 질을 향상시키는 데 중요할 수 있다. 알코올 및 약물 중독 관점에서, 이러한 연구 결과는 예방 및 치료 프로그램에서 부부 상담과 음주 습관 조정의 필요성을 강조한다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQbG4xR25ieVAwOElXbE41TWhxa19tTkU5djBmazBtSzVXTEpqTWlJWWh0M1RSTWpENVBXUm9lQTZ2Z1BzeEg0eGtJeEpyV04tck9qWE5hTnc3NDVGNkZsZzBMWGpNMnliaVZmRHpiNk",
+    "date": "2025-11-26",
+    "source": "PsyPost",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbG4xR25ieVAwOElXbE41TWhxa19tTkU5djBmazBtSzVXTEpqTWlJWWh0M1RSTWpENVBXUm9lQTZ2Z1BzeEg0eGtJeEpyV04tck9qWE5hTnc3NDVGNkZsZzBMWGpNMnliaVZmRHpiNkNTWm9pQVdpc1RsY1ZZQ21FZlFDbzJDVDF4YldfVHVYR3hKXy1zb3VROUxpZ1R4SmV1Z2Jz?oc=5"
+  },
+  {
+    "id": 7,
+    "category": "알코올·약물중독",
+    "title": "Get Help - Idaho Department of Health and Welfare (.gov)",
+    "summary": "이 기사는 아이다호주 보건복지부에서 제공하는 중독 치료 및 지원 서비스에 대한 정보를 다루고 있습니다. 중독 문제를 겪고 있는 개인과 그 가족을 위한 다양한 자원과 도움을 받을 수 있는 경로를 안내하고 있습니다. 또한, 중독 예방 및 치료를 위한 지역 사회의 역할과 중요성을 강조하고 있습니다. \n\n알코올 및 약물 중독 문제 해결을 위해서는 정부와 지역 사회가 협력하여 포괄적인 지원 체계를 구축하는 것이 필수적입니다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLThKTEV2bkNBeGQ5Q3cyR25aajhacWRJM3NDc2NPRHoxRDNFTzRJM0Y3WEhpanhGRUx6VEFSU1VydE9DdkF0Zl96bktDSkdYQ05HUG1GQ0dHdlZLTjViZWQ1Yklaa28zZkl4cXlscG",
+    "date": "2025-11-25",
+    "source": "Idaho Department of Health and Welfare (.gov)",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLThKTEV2bkNBeGQ5Q3cyR25aajhacWRJM3NDc2NPRHoxRDNFTzRJM0Y3WEhpanhGRUx6VEFSU1VydE9DdkF0Zl96bktDSkdYQ05HUG1GQ0dHdlZLTjViZWQ1Yklaa28zZkl4cXlscGZfT1N4aFBzOFI4S1J6aVVjdWdxYnJxTEln?oc=5"
+  },
+  {
+    "id": 8,
+    "category": "도박중독",
+    "title": "온라인 카지노 처벌 : 실용적인 팁과 전략 - 스텝 바이 스텝 가이드 - termokonteiner.ru",
+    "summary": "이 기사는 온라인 카지노에 대한 처벌과 관련된 실용적인 팁과 전략을 제시하는 단계별 가이드를 제공합니다. 특히, 온라인 도박의 법적 규제와 그에 따른 처벌의 필요성을 강조하며, 사용자들이 법적 문제를 피할 수 있는 방법을 안내합니다. 이러한 정보는 도박 중독 예방 및 치료에 있어 중요한 역할을 할 수 있습니다. \n\n도박중독 관점에서, 효과적인 법적 규제와 처벌은 사회적 책임을 강화하고, 중독 예방을 위한 정책적 기반을 마련하는 데 기여할 수 있습니다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ST2pucVFzeDlnZHJHeHM5V1BzUFVkbnUzcEJfM3JlYkdtVENFUWpfNUZlSEF4eHR5WnFWTV9WdzVsNFZ6T1pENzBrUDNHdW5kOVNQal85N3M?oc=5\" target=\"_blank\">온라인 카지노 ",
+    "date": "2025-11-27",
+    "source": "termokonteiner.ru",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ST2pucVFzeDlnZHJHeHM5V1BzUFVkbnUzcEJfM3JlYkdtVENFUWpfNUZlSEF4eHR5WnFWTV9WdzVsNFZ6T1pENzBrUDNHdW5kOVNQal85N3M?oc=5"
+  },
+  {
+    "id": 9,
+    "category": "도박중독",
+    "title": "AI에 도박시켜봤더니..도박 중독자처럼 한탕 베팅 - 스마트투데이",
+    "summary": "AI를 이용해 도박을 시뮬레이션한 결과, AI가 도박 중독자처럼 한탕 베팅을 하는 경향을 보였다는 내용의 기사이다. 이는 AI가 인간의 도박 행동을 모방할 수 있음을 시사하며, 도박 중독의 위험성을 더욱 부각시킨다. 이러한 결과는 도박 중독 예방 및 치료를 위한 정책 개발에 있어 AI 기술의 활용 가능성을 제시한다. 따라서, 도박 중독 문제 해결을 위해 AI 기반의 모니터링 및 개입 시스템 도입이 필요하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5SdjZhTTFfMUlDRmV2SXRkZXlwQ1dDRTNRQmRzRkhqdk13UGZ2ZmxnMFZhV2Y4cTNCRkFVRXJKbVVSWV9aSWU0SkQtLWN5ZEtOVXNGS29DdkprSWpDNzVENTJaVUdKMVRXeC1mM3J2TQ",
+    "date": "2025-11-26",
+    "source": "스마트투데이",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SdjZhTTFfMUlDRmV2SXRkZXlwQ1dDRTNRQmRzRkhqdk13UGZ2ZmxnMFZhV2Y4cTNCRkFVRXJKbVVSWV9aSWU0SkQtLWN5ZEtOVXNGS29DdkprSWpDNzVENTJaVUdKMVRXeC1mM3J2TQ?oc=5"
+  },
+  {
+    "id": 10,
+    "category": "도박중독",
+    "title": "자격을 갖춘 베트남인이 푸꾸옥, 호짬, 반돈의 카지노에서 플레이할 수 있도록 허용 - Vietnam.vn",
+    "summary": "베트남 정부는 자격을 갖춘 베트남인이 푸꾸옥, 호짬, 반돈의 카지노에서 도박을 할 수 있도록 허용하는 정책을 발표했다. 이 조치는 카지노 산업의 발전과 관광 활성화를 목표로 하고 있으며, 베트남 내 도박 시장의 규제를 강화하는 방향으로 진행되고 있다. 그러나 이러한 정책은 도박중독 문제를 심화시킬 수 있는 잠재적 위험을 내포하고 있다. 따라서, 도박중독 예방 및 치료를 위한 사회적 지원 체계의 강화가 필요하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzRYTDFaS0xieVRUZTRicnZLb2NEMnhpSG03eWkzank0T2VydlFrelhpWWo1OVdYZEN3c0NFVy1aZGNOTGNLYXJQa2o5X0ZsS2lrRU5FOGxNQW0yV3FkMjI4VkRPVDcxcTNjdjJIUT",
+    "date": "2025-11-26",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzRYTDFaS0xieVRUZTRicnZLb2NEMnhpSG03eWkzank0T2VydlFrelhpWWo1OVdYZEN3c0NFVy1aZGNOTGNLYXJQa2o5X0ZsS2lrRU5FOGxNQW0yV3FkMjI4VkRPVDcxcTNjdjJIUTVmUjdOTTFSM1R0ZExRdDd2dkRreUNCNGh5ZGJBWUpPbTJRdUVGUTZ0Tk9WTXB6SWJ3dmdINmZB?oc=5"
+  },
+  {
+    "id": 11,
+    "category": "도박중독",
+    "title": "‘불법 도박’ 혐의 개그맨 이진호, 보완수사 거쳐 검찰 송치 - 한겨레",
+    "summary": "개그맨 이진호가 불법 도박 혐의로 보완 수사를 거쳐 검찰에 송치되었다. 이 사건은 도박 중독 문제와 관련하여 사회적 관심을 불러일으키고 있으며, 연예인의 도박 행위가 대중에게 미치는 영향이 우려된다. 따라서, 도박 중독 예방 및 치료를 위한 정책적 노력이 필요하며, 사회 전반에서 도박에 대한 인식 개선이 요구된다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE96MHQ1Um9oclRpQ2toclVmYkVTVmJQYTFDcEdtUGVKeVhvMGlWM2p5LTB2UENiWjQ1ZXlqaTZKUi1CZXp6QS1Ic2dBMjRCXy1Xbm5RMGhMcEFxaGRNY0JMS2pMd0E5WTl1ZHlXMFhqQ0",
+    "date": "2025-11-25",
+    "source": "한겨레",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96MHQ1Um9oclRpQ2toclVmYkVTVmJQYTFDcEdtUGVKeVhvMGlWM2p5LTB2UENiWjQ1ZXlqaTZKUi1CZXp6QS1Ic2dBMjRCXy1Xbm5RMGhMcEFxaGRNY0JMS2pMd0E5WTl1ZHlXMFhqQ0hhdw?oc=5"
+  },
+  {
+    "id": 12,
+    "category": "도박중독",
+    "title": "도박중독자 최후 학습을 위한 최고의 자료와 도구 - 2025년 최신 가이드 - termokonteiner.ru",
+    "summary": "이 기사는 도박중독자를 위한 최신 자료와 도구를 제공하는 2025년 가이드를 소개하고 있습니다. 도박중독의 심각성을 인식하고, 이를 극복하기 위한 다양한 학습 자원과 지원 방법을 제시하고 있습니다. 또한, 도박중독 예방 및 치료에 대한 정보 접근성을 높이는 것이 중요하다는 점을 강조합니다. \n\n도박중독 문제 해결을 위해서는 정책적으로 예방 교육과 치료 프로그램의 접근성을 강화하고, 사회적으로는 중독자에 대한 이해와 지원을 확대해야 할 필요가 있습니다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFA0TTBhWmM5Ym95d0paZFlGdzk4OU5BazVsSkRHNE1KMmVpcVlyUTlhX2Q2TExVQzlrSDZfRllRbExpUGdCME4wY2xFX0RoWExWUkpnR2xOemYwclZ1SW5oUmtrbWRtMGtjd0VCdQ?oc=",
+    "date": "2025-11-25",
+    "source": "termokonteiner.ru",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0TTBhWmM5Ym95d0paZFlGdzk4OU5BazVsSkRHNE1KMmVpcVlyUTlhX2Q2TExVQzlrSDZfRllRbExpUGdCME4wY2xFX0RoWExWUkpnR2xOemYwclZ1SW5oUmtrbWRtMGtjd0VCdQ?oc=5"
+  },
+  {
+    "id": 13,
+    "category": "AI와 중독 정책",
+    "title": "에픽게임즈 CEO \"게임 스토어 내 AI 태그는 무의미\" 일침 - 디지털투데이",
+    "summary": "에픽게임즈의 CEO는 게임 스토어 내 AI 태그의 도입이 무의미하다고 주장하며, 이러한 태그가 소비자에게 실질적인 정보를 제공하지 못한다고 지적했습니다. 그는 AI 기술이 게임 개발에 긍정적인 영향을 미칠 수 있지만, 단순한 태그 부착은 소비자에게 혼란을 초래할 수 있다고 경고했습니다. 이러한 발언은 게임 산업 내에서 AI의 역할과 그에 따른 소비자 보호의 필요성을 강조합니다. \n\nAI와 중독 정책 관점에서, 게임 내 AI 태그의 무의미함은 중독 예방을 위한 정책적 접근이 소비자에게 실질적인 가치를 제공해야 함을 시사합니다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE56OHFFNDNwbWFyU056X1hHcjB3X01odEJYQ0xfX0xTMEVsWWV3c1lrNUNRQms1eG5QVTZLdWx4V0dCN1U4SE9pekZDUjRjcEwxMzJ2Vl9JVGhOaUtpXzNvQjlrdHRtYkcxRm1BLTFFTX",
+    "date": "2025-11-28",
+    "source": "디지털투데이",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56OHFFNDNwbWFyU056X1hHcjB3X01odEJYQ0xfX0xTMEVsWWV3c1lrNUNRQms1eG5QVTZLdWx4V0dCN1U4SE9pekZDUjRjcEwxMzJ2Vl9JVGhOaUtpXzNvQjlrdHRtYkcxRm1BLTFFTXgwSlk?oc=5"
+  },
+  {
+    "id": 14,
+    "category": "AI와 중독 정책",
+    "title": "\"AI가 제작한 게임입니다\"…AI 생성 라벨 '의미 없다'는 에픽게임즈 CEO, 왜? - v.daum.net",
+    "summary": "에픽게임즈의 CEO는 \"AI가 제작한 게임입니다\"라는 라벨이 의미가 없다고 주장하며, AI 생성 콘텐츠의 진정성과 가치에 대한 우려를 표명했습니다. 그는 AI가 게임 제작에 미치는 영향과 그로 인해 발생할 수 있는 중독 문제에 대한 논의가 필요하다고 강조했습니다. 이러한 발언은 AI 기술이 게임 산업에 미치는 영향과 함께, 중독 예방을 위한 정책적 접근이 필요함을 시사합니다. 따라서, AI 생성 콘텐츠의 규제와 중독 예방을 위한 사회적 논의가 중요하다고 할 수 있습니다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE9lNDVyYXFlQkxyUnk1bVgteUVhTkpfMVB4TERHdUZ4cFdhdERjQklQWkp3MU1nSk1fSUtNdG5wN1E2bVpmT3c?oc=5\" target=\"_blank\">\"AI가 제작한 게임입니다\"…AI 생성 라벨 '의미 없다'",
+    "date": "2025-11-27",
+    "source": "v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9lNDVyYXFlQkxyUnk1bVgteUVhTkpfMVB4TERHdUZ4cFdhdERjQklQWkp3MU1nSk1fSUtNdG5wN1E2bVpmT3c?oc=5"
+  },
+  {
+    "id": 15,
+    "category": "AI와 중독 정책",
+    "title": "머스크, AI로 `페이커`에 도전장…T1 `우린 준비됐다` - 매일신문",
+    "summary": "머스크가 AI 기술을 활용하여 유명 프로게이머 '페이커'에 도전하겠다는 의사를 밝혔으며, 이에 대해 T1 팀은 자신들의 준비 상태를 강조하고 있다. 이 도전은 AI와 인간의 경쟁 구도를 부각시키며, 게임 산업 내에서의 혁신적인 변화를 예고하고 있다. 이러한 상황은 게임 중독 문제와 관련하여 AI 기술이 중독 예방 및 치료에 어떻게 활용될 수 있는지를 고민하게 만든다. \n\nAI의 발전은 중독 정책 수립에 있어 새로운 접근 방식을 제시할 수 있으며, 게임 중독 문제 해결을 위한 효과적인 도구로 자리잡을 가능성이 있다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HenczZ1Y1QkVCbjdLYXB5NEpPUm1veW81UElELUI4YWVDNlN0czRJZE9JalZZVXRCRXhQd3FqOFd4dWNRaU5CamgtdDc1NG5JZWYxcTZOMmNocllZeTYxVGhn?oc=5\" target=\"_bl",
+    "date": "2025-11-27",
+    "source": "매일신문",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HenczZ1Y1QkVCbjdLYXB5NEpPUm1veW81UElELUI4YWVDNlN0czRJZE9JalZZVXRCRXhQd3FqOFd4dWNRaU5CamgtdDc1NG5JZWYxcTZOMmNocllZeTYxVGhn?oc=5"
+  },
+  {
+    "id": 16,
+    "category": "시사 이슈",
+    "title": "\"미스 비치의 두꺼비 빵\" 사건: 300명 이상 중독 원인 결정 - Vietnam.vn",
+    "summary": "\"미스 비치의 두꺼비 빵\" 사건에서 300명 이상이 중독된 원인이 밝혀졌다. 해당 사건은 베트남에서 발생했으며, 중독의 원인은 특정 식품의 오염으로 확인되었다. 이 사건은 식품 안전과 관련된 규제의 필요성을 다시 한번 강조하고 있다. 따라서, 정부는 식품 안전 기준을 강화하고, 소비자 교육을 통해 유사 사건의 재발을 방지해야 할 필요성이 있다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNNXhmUFd1aHQ0Mm1xRXhlQzZYamRCYWdBQTVYWWRqMmlTcjFBYWRWaFhrTWdkVDZoVHdCcWEzYm1kYkVqRGZWcHAtUU84bXI0ZUNHdWluOUhXc29ERlpTWWpmX0VHcGxQRjdwMmZ4a3",
+    "date": "2025-11-26",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNXhmUFd1aHQ0Mm1xRXhlQzZYamRCYWdBQTVYWWRqMmlTcjFBYWRWaFhrTWdkVDZoVHdCcWEzYm1kYkVqRGZWcHAtUU84bXI0ZUNHdWluOUhXc29ERlpTWWpmX0VHcGxQRjdwMmZ4a3I5U0FKS01RNkFrSWxEOXZmRkp1MjcxdzliSFZxRUdvMXhMWFRRVzcyeU5KQUdrS29JWi1LQw?oc=5"
+  },
+  {
+    "id": 17,
+    "category": "시사 이슈",
+    "title": "코비치 두꺼비 빵 섭취로 인한 중독 사례: 살모넬라균에 오염된 빵으로 인해 - Vietnam.vn",
+    "summary": "코비치 두꺼비 빵 섭취로 인한 중독 사례가 발생하였으며, 이는 살모넬라균에 오염된 빵이 원인으로 지목되고 있다. 해당 사건은 식품 안전 문제의 심각성을 드러내며, 소비자들의 건강에 직접적인 위협을 가하고 있다. 이러한 사례는 식품 제조 및 유통 과정에서의 위생 관리 강화의 필요성을 강조한다. 따라서, 정부는 식품 안전 규제를 강화하고, 소비자 교육을 통해 안전한 식품 선택을 촉진해야 할 필요가 있다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOV3dPMVZvaV9WUDNJYmJObGxtbGluVVJyUjNHRzVyVnBwNWE3X0Y2ODgySFFnalRUOHpYYV9uZUQ3WG5BRGI0V2c5QVR4S0VvazJoMGV1ZEFiNXUwdXZsVjRHMTZWV0ZpVnBGS0NNbW",
+    "date": "2025-11-26",
+    "source": "Vietnam.vn",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV3dPMVZvaV9WUDNJYmJObGxtbGluVVJyUjNHRzVyVnBwNWE3X0Y2ODgySFFnalRUOHpYYV9uZUQ3WG5BRGI0V2c5QVR4S0VvazJoMGV1ZEFiNXUwdXZsVjRHMTZWV0ZpVnBGS0NNbWt4M0k3ajEtUzRlUjBMNWY3a3dIMXF0U2o5WmItTGcxbkRQS2xoOUZiUGsxeC0?oc=5"
+  },
+  {
+    "id": 18,
+    "category": "시사 이슈",
+    "title": "경찰, '가스 중독 사고' 포항제철소 합동감식 착수 - YTN",
+    "summary": "경찰은 포항제철소에서 발생한 가스 중독 사고에 대한 합동감식에 착수했다. 이번 사고는 작업 환경의 안전성 문제를 다시금 부각시키며, 관련 기관의 철저한 조사가 요구되고 있다. 가스 중독 사고는 근로자의 생명과 안전에 직접적인 영향을 미치므로, 이를 예방하기 위한 정책적 개선이 필요하다. 따라서, 산업 안전 규정의 강화와 함께 근로자 교육 및 안전 관리 시스템의 점검이 시급하다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vNVprb1B4SW9lcjFHcmUxTHprQVVUQUg5U0xuNjllTWxlazd2NVo4a3p1eGJfSVB3WHU3TG81X0dWWHJGWXJLVnljTy15MkpXYTRsWGVLb1hhYnNmTGfSAYMBQVVfeXFMT1hRaXBob2",
+    "date": "2025-11-26",
+    "source": "YTN",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vNVprb1B4SW9lcjFHcmUxTHprQVVUQUg5U0xuNjllTWxlazd2NVo4a3p1eGJfSVB3WHU3TG81X0dWWHJGWXJLVnljTy15MkpXYTRsWGVLb1hhYnNmTGfSAYMBQVVfeXFMT1hRaXBob2Y1YjdiZGxHdkkxX1FQWlpDUmdVS0JxNUFfU3VHVUVLaVBQWllBTTYtdlRmQzc4U05MNFBVQ2s0YWV2U0dWaU50bWZUSlhiTEVIR0hBWnhHTi04OE1UQWpHb0ZYR3dpMXNVMXY2Q1JZSFFpaEZyYnZHMFNCb28?oc=5"
+  },
+  {
+    "id": 19,
+    "category": "시사 이슈",
+    "title": "Why a Portland addiction treatment provider is blanketing Portland with billboards - The Business Journals",
+    "summary": "포틀랜드의 한 중독 치료 제공자가 도시 전역에 광고판을 설치하여 중독 치료의 필요성을 알리고 있다. 이 광고 캠페인은 중독 문제에 대한 인식을 높이고, 치료 접근성을 개선하기 위한 노력의 일환으로 진행되고 있다. 이러한 접근은 지역 사회의 중독 문제 해결을 위한 새로운 전략으로 주목받고 있다. \n\n이와 같은 광고 캠페인은 중독 치료에 대한 사회적 인식을 변화시키고, 정책적 지원을 촉구하는 중요한 계기가 될 수 있다.",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQcFJEd0lsSnFIRUFjVmdLV2VKR2ljMDBEWHZDVE9yYkZiR090Z29BZkd6SEJGbWdYZkhfQkgzU1UyZVhCU19tdHZuaVpXaG5tdExDYUtLMmVCREhZbGhCMTFuaE9XcTBCN0VnOWFuMG",
+    "date": "2025-11-25",
+    "source": "The Business Journals",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcFJEd0lsSnFIRUFjVmdLV2VKR2ljMDBEWHZDVE9yYkZiR090Z29BZkd6SEJGbWdYZkhfQkgzU1UyZVhCU19tdHZuaVpXaG5tdExDYUtLMmVCREhZbGhCMTFuaE9XcTBCN0VnOWFuMGJwd01FRXZlMjdhV1FJQjB3a2tQeTRaVHpFNWJtVmFmUEJHUS13WXg1ZkFKR1hjdFZMaHc?oc=5"
   }
 ]
